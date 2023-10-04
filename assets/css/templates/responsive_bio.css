@@ -1,0 +1,626 @@
+ /* PC ESCRITORIO 4K */
+@media only screen and (max-width: 2560px) {
+    #wrapper-border {
+        position: fixed;
+        display: flex;
+        height: 150%;
+        bottom: 0;
+        left: 0;
+        z-index: 2 !important;
+        pointer-events: none;
+        /* padding-left: 50px; */
+      }
+    .schreibe2 {
+        font-size: 38px;
+        transform: translate(-45%,350%);
+    }
+    .schreibe3{
+        font-size: 38px;
+        margin-bottom: 25px;
+        transform: translate(-90%,380%);
+      
+      }
+
+    .logos{
+        transform: translate(2080%, 513%);
+        z-index: 99999;
+        height: 10%;
+        width: 10%;
+      
+      }
+      .icono3{
+          width: 100%;
+          transform: rotate(-35deg);
+      }
+
+      #bioFooter{
+        font-size: 30px;
+        height: 40%;
+        cursor: cell;
+        z-index: 999;
+      }
+
+      .icono_Carla{
+        transform: translate(525%, -55%);
+      }
+
+    }
+/* PC */
+@media only screen and (max-width: 1440px) {
+    #wrapper-border {
+        position: fixed;
+        display: flex;
+        height: 150%;
+        bottom: 0;
+        left: 0;
+        z-index: 2 !important;
+        pointer-events: none;
+        /* padding-left: 50px; */
+      }
+    .schreibe2 {
+        font-size: 19px;
+    }
+    .schreibe3{
+        font-size: 19px;
+      }
+
+    .logos{
+        transform: translate(2080%, 435%);
+        height: 10%;
+        width: 10%;
+      
+      }
+      .icono3{
+          width: 100%;
+          transform: rotate(-35deg);
+      }
+
+      #bioFooter{
+        font-size: 20px;
+        height: 47%;
+        cursor: cell;
+        z-index: 999;
+      }
+
+  }
+
+/* Notebook/tablet grande */
+@media only screen and (max-width: 1024px){
+
+
+    .optionsBio_costu{
+        transform: translate(112%,0%);
+    }
+    .optionsBio_draw{
+        transform: translate(-170%,0%);
+    }
+    .optionsBio_photo{
+        transform: translate(55%,0%);
+    }
+
+    #bio_pop{
+        width: 100%;
+    }
+    #bio_pop2{
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .logos{
+        transform: translate(1050%, 320%);
+        height: 10%;
+        width: 20%;
+      
+      }
+      .icono3{
+          width: 100%;
+          transform: rotate(-35deg);
+      }
+
+      #bioFooter{
+        font-size: 20px;
+        height: 60%;
+        cursor: cell;
+        z-index: 999;
+      }
+
+      .optionsBio_costu:hover{
+        color: rgb(237, 231, 235);
+        border-bottom: 1px solid black;
+        cursor: help;
+        background-color: transparent;
+      }
+
+      .optionsBio_sceno:hover{
+        color: rgb(237, 231, 235);
+        border-bottom: 1px solid black;
+        cursor: help;
+        background-color: transparent;
+      }
+      
+
+      .optionsBio_photo:hover{
+        color: rgb(237, 231, 235);
+        border-bottom: 1px solid black;
+        cursor: help;
+        background-color: transparent;
+      }
+      
+      .optionsBio_film:hover{
+        color: rgb(237, 231, 235);
+        border-bottom: 1px solid black;
+        cursor: help;
+        background-color: transparent;
+      }
+      
+      .optionsBio_draw:hover{
+        color: rgb(237, 231, 235);
+        border-bottom: 1px solid black;
+        cursor: help;
+        background-color: transparent;
+      }
+
+
+  } 
+
+/* Smartphone grande */
+@media only screen and (max-width: 768px){
+
+
+    .optionsBio_costu{
+        transform: translate(112%,0%);
+    }
+    .optionsBio_draw{
+        transform: translate(-170%,0%);
+    }
+    .optionsBio_photo{
+        transform: translate(52%,0%);
+    }
+    .optionsBio_film{
+        transform: translate(30%,0%);
+    }
+    .optionsBio_sceno{
+        transform: translate(190%,0%);
+    }
+
+    .schreibeAbout{
+        transform: translate(73%,0%);
+    }
+
+    #bio_pop{
+        width: 60%;
+    }
+    #bio_pop2{
+        font-size: 14px;
+        width: 58%;
+    }
+
+    .nav-downBio{
+        width: 10%;
+    }
+    #logo1{
+        width: 80%;
+    }
+
+    .schreibe2{
+        transform: translate(-47%,600%);
+    }
+    .schreibe3{
+        width: 120%;
+        transform: translate(-80%,620%);
+    }
+
+
+    .logos{
+        transform: translate(500%, 500%);
+        height: 10%;
+        width: 20%;
+      
+      }
+      .icono3{
+          width: 100%;
+          transform: rotate(-35deg);
+      }
+
+      #bioFooter{
+        height: 40%;
+        margin-top: 480%;
+        width: 500%;
+        margin-left: 270%;
+
+      }
+
+
+
+  } 
+
+  /* Smartphone */
+@media only screen and (max-width: 600px){
+
+
+    .optionsBio_costu{
+        transform: translate(70%,0%);
+    }
+    .optionsBio_draw{
+        transform: translate(-130%,0%);
+    }
+    .optionsBio_photo{
+        transform: translate(22%,0%);
+    }
+    .optionsBio_film{
+        transform: translate(30%,0%);
+    }
+    .optionsBio_sceno{
+        transform: translate(90%,0%);
+    }
+
+    .schreibeAbout{
+        transform: translate(73%,0%);
+    }
+
+    #bio_pop{
+        width: 60%;
+    }
+    .content-collapse{
+        transform: translate(-13%,0%);
+    }
+
+    #bio_pop2{
+        font-size: 14px;
+        width: 58%;
+    }
+
+    .schreibe2{
+        transform: translate(-47%,600%);
+    }
+    .schreibe3{
+        width: 150%;
+        transform: translate(-60%,620%);
+    }
+
+
+    .logos{
+        transform: translate(500%, 400%);
+      }
+
+
+      #bioFooter{
+        height: 50%;
+        margin-top: 480%;
+        width: 500%;
+        margin-left: 270%;
+      }
+
+      .icono_Carla{
+        width:60%;
+        transform: translate(50%,-35%);
+      }
+
+
+
+  } 
+
+  /* Smartphone */
+@media only screen and (max-width: 560px){
+
+
+      #bioFooter{
+        height: 53%;
+        margin-top: 480%;
+        width: 500%;
+        margin-left: 270%;
+      }
+
+      .icono_Carla{
+        width:40%;
+        transform: translate(100%,-55%);
+      }
+
+
+
+  } 
+
+  /* Smartphone */
+@media only screen and (max-width: 425px){
+
+
+    .optionsBio_costu{
+        transform: translate(30%,0%);
+        font-size: 13px;
+    }
+    .optionsBio_draw{
+        transform: translate(-90%,0%);
+        font-size: 13px;
+
+    }
+    .optionsBio_photo{
+        transform: translate(7%,0%);
+        font-size: 13px;
+
+    }
+    .optionsBio_film{
+        transform: translate(30%,0%);
+        font-size: 13px;
+
+    }
+    .optionsBio_sceno{
+        transform: translate(4%,0%);
+        font-size: 13px;
+    }
+
+    .schreibeAbout{
+        transform: translate(-110%,370%);
+        background-color: white;
+        margin-top: -30%;
+    }
+
+    /* #biobiobioMe{
+        transform: translate(190%, -180%);
+    } */
+
+    #bio_pop{
+        width: 40%;
+    }
+    .content-collapse{
+        transform: translate(-10%,120%);
+    }
+
+    #bio_pop2{
+        width: 43%;
+        font-size: 11px;
+    }
+
+
+
+    #biobiobio{
+        transform: translate(-11%, 28%);
+        width: 1400%;
+        height: 40%;
+    }
+
+    .schreibe2{
+        width: 230%;
+        transform: translate(50%,320%);
+    }
+
+    .schreibe3{
+        width: 230%;
+        transform: translate(120%,820%);
+        color: white;
+    }
+
+
+    .logos{
+        transform: translate(250%, 300%);
+      }
+
+      .icono3{
+        width: 220%;
+        transform: translate(-140%, 220%);
+
+      }
+
+
+      #bioFooter{
+        height: 43%;
+        margin-top: 980%;
+        width: 680%;
+        margin-left: 20%;
+      }
+
+      .icono_Carla{
+        width:60%;
+        transform: translate(70%,-35%);
+      }
+
+
+
+} 
+
+  /* Smartphone */
+@media only screen and (max-width: 375px){
+
+
+    .optionsBio_costu{
+        transform: translate(20%,0%);
+        font-size: 13px;
+    }
+    .optionsBio_draw{
+        transform: translate(-70%,0%);
+        font-size: 13px;
+
+    }
+    .optionsBio_photo{
+        transform: translate(-2%,0%);
+        font-size: 13px;
+
+    }
+    .optionsBio_film{
+        transform: translate(30%,0%);
+        font-size: 13px;
+
+    }
+    .optionsBio_sceno{
+        transform: translate(-12%,0%);
+        font-size: 13px;
+    }
+
+    .schreibeAbout{
+        transform: translate(-90%,315%);
+        width: 130%;
+        background-color: white;
+    }
+
+    /* #biobiobioMe{
+        transform: translate(190%, -180%);
+    } */
+
+    #bio_pop{
+        font-size: 13px;
+        width: 40%;
+    }
+    .content-collapse{
+        transform: translate(-10%,170%);
+    }
+
+    #bio_pop2{
+        width: 43%;
+        font-size: 9.5px;
+        margin-bottom: 80%;
+
+    }
+
+
+
+    #biobiobioMe{
+        transform: translate(0%,-50%);
+    }
+    #biobiobio{
+        transform: translate(-11%, 8%);
+        width: 1400%;
+    }
+
+    .schreibe2{
+        width: 280%;
+        transform: translate(90%,20%);
+    }
+
+    .schreibe3{
+        width: 230%;
+        transform: translate(115%,820%);
+        color: white;
+    }
+
+
+    .logos{
+        transform: translate(250%, 300%);
+      }
+
+      .icono3{
+        width: 220%;
+        transform: translate(-270%, 370%);
+
+      }
+
+
+      #bioFooter{
+        font-size: 13px;
+        height: 32%;
+        margin-top: 1180%;
+        width: 500%;
+        margin-left: -70%;
+      }
+
+      .icono_Carla{
+        width:60%;
+        transform: translate(70%,-35%);
+      }
+
+
+
+}
+
+     /* Smartphone */
+@media only screen and (max-width: 320px){
+ 
+
+    .optionsBio_costu{
+        transform: translate(-10%,0%);
+        font-size: 11px;
+    }
+    .optionsBio_draw{
+        transform: translate(-50%,0%);
+        font-size: 11px;
+
+    }
+    .optionsBio_photo{
+        transform: translate(-14%,0%);
+        font-size: 11px;
+
+    }
+    .optionsBio_film{
+        transform: translate(30%,0%);
+        font-size: 11px;
+
+    }
+    .optionsBio_sceno{
+        transform: translate(-52%,0%);
+        font-size: 11px;
+    }
+
+    .schreibeAbout{
+        transform: translate(-90%,315%);
+        width: 130%;
+        background-color: white;
+    }
+
+    /* #biobiobioMe{
+        transform: translate(190%, -180%);
+    } */
+
+    #bio_pop{
+        font-size: 13px;
+        width: 35%;
+    }
+    .content-collapse{
+        transform: translate(-10%,170%);
+    }
+
+    #bio_pop2{
+        width: 43%;
+        font-size: 9px;
+        margin-bottom: 80%;
+
+    }
+
+
+
+    #biobiobioMe{
+        transform: translate(0%,-50%);
+    }
+    #biobiobio{
+        transform: translate(-11%, 8%);
+        width: 1400%;
+    }
+
+    .schreibe2{
+        width: 280%;
+        transform: translate(90%,20%);
+    }
+
+    .schreibe3{
+        transform: translate(115%,950%);
+        font-size: 13px;
+    }
+
+
+    .logos{
+        transform: translate(250%, 300%);
+      }
+
+      .icono3{
+        width: 220%;
+        transform: translate(-270%, 370%);
+
+      }
+
+
+      #bioFooter{
+        font-size: 13px;
+        height: 32%;
+        margin-top: 1180%;
+        width: 790%;
+        margin-left: -70%;
+      }
+
+      .icono_Carla{
+        width:60%;
+        transform: translate(70%,-25%);
+      }
+
+
+
+} 
+
+
+

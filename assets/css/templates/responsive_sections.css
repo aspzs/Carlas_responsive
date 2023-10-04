@@ -1,0 +1,1292 @@
+ /* PC ESCRITORIO 4K */
+ @media only screen and (max-width: 2560px) {
+    .botones_1{
+        transform: translate(-8%,170%);
+      }
+      .title-sceno {
+        font-size: 155px;
+        transform: translate(0%,-50%);
+      }
+      .creditsCarla{
+        transform: translate(-70%,-460%);
+        font-size: 165%;
+      }
+      .prev img{
+        transform: translate(190%,-750%);
+      }
+      .next img{
+        transform: translate(580%,-750%);
+      }
+      .mySlides5 {
+        transform: translate(280%, -40%);
+        width: 180%;
+      }
+      .mySlides6 {
+        transform: translate(210%, -40%);
+        width: 180%;
+      }
+      .mySlides2 {
+        transform: translate(230%, -40%);
+        width: 210%;
+      }
+      .mySlides0 {
+        transform: translate(192%, -40%);
+        width: 260%;
+      }
+      .mySlides3 {
+        transform: translate(190%, -70%);
+        width: 180%;
+      }
+      .mySlides4 {
+        transform: translate(230%, -50%);
+        width: 210%;
+      }
+      .textoTom{
+        transform: translate(80%, -40%);
+        font-size: 25px;
+        width: 200%;
+      }
+      .textoLern{
+        transform: translate(89%, -60%);
+        font-size: 20px;
+        width: 160%;
+      }
+
+      /* Custome-design film drawing photo */
+      .flechitas_custome{
+        transform: translate(0%,-150%);
+      }
+      .mySlides5F{
+        transform: translate(300%,0%);
+      }
+      .mySlides5F img{
+        width: 180%;
+      }
+      .mySlides02{
+        transform:translate(360%, -40%);
+      }
+      .mySlides02 img{
+        width:210%;
+      }
+      .mySlides02Film{
+        transform: translate(450%,-10%);
+      }
+      .mySlides02Film img{
+        width: 500%;
+      }
+      .mySlides6Sti{
+        transform: translate(420%,10%);
+      }
+      .mySlides6Sti{
+        width: 120%;
+      }
+      .mySlides2Arch{
+        transform: translate(350%, 10%);
+      }
+      .mySlides2Arch img{
+        width: 220%;
+      }
+      .mySlides0Ve{
+        transform: translate(500%, -10%);
+      }
+      .mySlides0Ve img{
+        width: 400%;
+      }
+      .mySlides2Tip{
+        transform: translate(210%,-30%);
+      }
+      .mySlides2Tip{
+        width: 90%;
+      }
+      .mySlides7{
+        transform: translate(180%,-20%);
+        width: 120%;
+      }
+      .mySlides3R{
+        transform: translate(180%,-40%);
+        width: 120%;
+      }
+
+      .mySlides4Mx{
+        transform: translate(230%,-20%);
+        width: 210%;
+      }
+      .mySlides6Ex{
+        transform: translate(230%,-70%);
+        width: 210%;
+      }
+
+
+
+
+      .textoTom_custome2{
+        transform: translate(89%, -10%);
+        font-size: 25px;
+        width: 160%;
+      }
+      .textoTom_customeFilm{
+        font-size: 20px;
+      }
+      .textoTom_customeEx{
+        transform: translate(189%, -50%);
+        font-size: 25px;
+        width: 160%;
+      }
+      .textoTom_customeEx1{
+        transform: translate(29%, -50%);
+        font-size: 20px;
+        width: 360%;
+
+      }
+
+
+    }
+ /* PC  */
+ @media only screen and (max-width: 1440px) {
+    .botones_1{
+        transform: translate(-8%,100%);
+      }
+      .title-sceno {
+        font-size: 99px;
+        transform: translate(0%,-10%);
+      }
+      .creditsCarla{
+        transform: translate(-70%,-320%);
+        font-size: 95%;
+      }
+      .prev img{
+        transform: translate(190%,-550%);
+      }
+      .next img{
+        transform: translate(580%,-550%);
+      }
+      .mySlides5 {
+        transform: translate(260%, -60%);
+        width: 160%;
+      }
+      .mySlides6 {
+        transform: translate(170%, -70%);
+        width: 160%;
+      }
+      .mySlides2 {
+        transform: translate(210%, -40%);
+        width: 210%;
+      }
+      .mySlides0 {
+        transform: translate(152%, -60%);
+        width: 260%;
+      }
+      .mySlides3 {
+        transform: translate(150%, -70%);
+        width: 180%;
+      }
+      .mySlides4 {
+        transform: translate(230%, -60%);
+        width: 210%;
+      }
+      .textoTom{
+        transform: translate(260%, -130%);
+        font-size: 15px;
+      }
+      .textoLern{
+        transform: translate(180%, -90%);
+        font-size: 12px;
+        width: 250%;
+      }
+
+            /* Custome-design film drawing photo */
+            .flechitas_custome{
+              transform: translate(0%,-100%);
+            }
+            .mySlides5F{
+              transform: translate(190%,0%);
+            }
+            .mySlides5F img{
+              width: 100%;
+            }
+            .mySlides02{
+              transform:translate(280%, -60%);
+            }
+            .mySlides02 img{
+              width:250%;
+            }
+            .mySlides02Film{
+              transform: translate(350%,-50%);
+            }
+            .mySlides02Film img{
+              width: 400%;
+            }
+            .mySlides6Sti{
+              transform: translate(270%,-10%);
+              width: 180%;
+            }
+            .mySlides2Arch{
+              transform: translate(170%, -10%);
+            }
+            .mySlides2Arch img{
+              width: 170%;
+            }
+            .mySlides2Tip{
+              transform: translate(300%,-80%);
+              width: 150%;
+            }
+
+            .mySlides7{
+              transform: translate(190%,-40%);
+              width: 200%;
+            }
+            .mySlides3R{
+              transform: translate(180%,-60%);
+              width: 280%;
+            }
+      
+            .mySlides4Mx{
+              transform: translate(250%,-50%);
+              width: 210%;
+            }
+            .mySlides6Ex{
+              transform: translate(150%,-80%);
+              width: 280%;
+            }
+      
+      
+      
+      
+            .textoTom_custome2{
+              transform: translate(89%, -40%);
+              font-size: 15px;
+              width: 160%;
+            }
+            .textoTom_custome2DIDO{
+              transform: translate(50%, 140%);
+              font-size: 15px;
+              width: 160%;
+            }
+            .textoTom_customeFilm{
+              font-size: 14px;
+              transform: translate(9%, 120%);
+
+            }
+            .textoTom_customeEx{
+              transform: translate(150%, -100%);
+              font-size: 15px;
+              width: 190%;
+            }
+            .textoTom_customeEx1{
+              transform: translate(29%, -100%);
+              font-size: 12px;
+              width: 360%;
+            }
+            .textoTom_customeTip{
+              transform: translate(40%,-90%);
+              width: 420%;
+            }
+
+    }
+ /* Notebook/tablet grande  */
+ @media only screen and (max-width: 1024px) {
+    .botones_1{
+        transform: translate(-8%,100%);
+      }
+      .title-sceno {
+        font-size: 99px;
+        transform: translate(1%,-10%);
+      }
+      .creditsCarla{
+        transform: translate(-50%,-395%);
+        font-size: 75%;
+      }
+      .prev img{
+        transform: translate(190%,-350%);
+      }
+      .next img{
+        transform: translate(580%,-350%);
+      }
+      .mySlides5 {
+        transform: translate(180%, -70%);
+        width: 160%;
+      }
+      .mySlides6 {
+        transform: translate(145%, -70%);
+        width: 130%;
+      }
+      .mySlides2 {
+        transform: translate(145%, -40%);
+        width: 210%;
+      }
+      .mySlides0 {
+        transform: translate(132%, -70%);
+        width: 200%;
+      }
+      .mySlides3 {
+        transform: translate(170%, -80%);
+        width: 130%;
+      }
+      .mySlides4 {
+        transform: translate(150%, -80%);
+        width: 210%;
+      }
+      .textoTom{
+        transform: translate(60%, -130%);
+        font-size: 15px;
+      }
+      .textoLern{
+        transform: translate(10%, -90%);
+        font-size: 12px;
+        width: 200%;
+      }
+      .blend{
+        transform: translate(15%,0%);
+      }
+
+                  /* Custome-design film drawing photo */
+                  .flechitas_custome{
+                    transform: translate(0%,-100%);
+                  }
+                  .mySlides5F{
+                    transform: translate(120%,0%);
+                  }
+                  .mySlides5F img{
+                    width: 100%;
+                  }
+                  .mySlides02{
+                    transform:translate(170%, -60%);
+                  }
+                  .mySlides02 img{
+                    width:250%;
+                  }
+                  .mySlides02Film{
+                    transform: translate(218%,-90%);
+                  }
+                  .mySlides02Film img{
+                    width: 350%;
+                  }
+                  .mySlides6Sti{
+                    transform: translate(200%,-10%);
+                    width: 180%;
+                  }
+                  .mySlides6StiIm{
+                    transform: translate(350%,-50%);
+                                        width: 98%;
+
+                  }
+                  .mySlides2Arch{
+                    transform: translate(100%, -10%);
+                  }
+                  .mySlides2Arch img{
+                    width: 170%;
+                  }
+                  .mySlides2Tip{
+                    transform: translate(230%,-130%);
+                    width: 150%;
+                  }
+      
+                  .mySlides7{
+                    transform: translate(130%,-70%);
+                    width: 200%;
+                  }
+                  .mySlides3R{
+                    transform: translate(150%,-120%);
+                    width: 280%;
+                  }
+
+                  .mySlides0Ve{
+                    transform: translate(390%, -50%);
+                  }
+      .mySlides0Ve img{
+        width: 400%;
+      }
+            
+                  .mySlides4Mx{
+                    transform: translate(145%,-50%);
+                    width: 270%;
+                  }
+                  .mySlides6Ex{
+                    transform: translate(190%,-80%);
+                    width: 160%;
+                  }
+            
+            
+            
+            
+                  .textoTom_custome2{
+                    transform: translate(89%, -40%);
+                    font-size: 15px;
+                    width: 160%;
+                  }
+                  .textoTom{
+                    transform: translate(89%, -120%);
+                    font-size: 15px;
+                    width: 260%;
+                  }
+                  .textoTomArch{
+                    transform: translate(10%, 850%);
+                    font-size: 15px;
+                    width: 160%;
+                  }
+                  .textoTom_custome2DIDO{
+                    transform: translate(50%, 140%);
+                    font-size: 15px;
+                    width: 160%;
+                  }
+                  .textoTom_customeFilm{
+                    font-size: 14px;
+                    transform: translate(9%, 120%);
+      
+                  }
+                  .textoTom_customeEx{
+                    transform: translate(150%, -150%);
+                    font-size: 15px;
+                    width: 190%;
+                  }
+                  .textoTom_customeEx1{
+                    transform: translate(29%, -100%);
+                    font-size: 12px;
+                    width: 360%;
+                  }
+                  .textoTom_customeTip{
+                    transform: translate(80%,76%);
+                    width: 420%;
+                    font-size: 12px;
+                  }
+                  .textoTom_customeTipCTM{
+                    transform: translate(40%,160%);
+                    width: 320%;
+                    font-size: 12px;
+                  }
+
+    }
+ /* Smartphone grande  */
+ @media only screen and (max-width: 768px) {
+    .botones_1{
+        transform: translate(-8%,60%);
+        font-size: 13px;
+      }
+      .title-sceno {
+        font-size: 59px;
+        transform: translate(1%,-10%);
+      }
+      .creditsCarla{
+        transform: translate(-50%,-255%);
+        font-size: 75%;
+      }
+      .flechitas{
+        transform: translate(0%,50%);
+      }
+      .prev img{
+        transform: translate(190%,-350%);
+      }
+      .next img{
+        transform: translate(580%,-350%);
+      }
+      .mySlides5 {
+        transform: translate(140%, -80%);
+        width: 160%;
+      }
+      .mySlides6 {
+        transform: translate(155%, -90%);
+        width: 100%;
+      }
+      .mySlides2 {
+        transform: translate(115%, -70%);
+        width: 210%;
+      }
+      .mySlides0 {
+        transform: translate(100%, -90%);
+        width: 200%;
+      }
+      .mySlides3 {
+        transform: translate(100%, -80%);
+        width: 130%;
+      }
+      .mySlides4 {
+        transform: translate(120%, -80%);
+        width: 210%;
+      }
+      .textoTom{
+        transform: translate(40%, -170%);
+        font-size: 13px;
+      }
+      .textoLern{
+        transform: translate(20%, -130%);
+        font-size: 12px;
+        width: 200%;
+      }
+      .blend{
+        transform: translate(13%,0%);
+        font-size: 12px;
+      }
+
+                        /* Custome-design film drawing photo */
+                        .flechitas_custome{
+                          transform: translate(0%,50%);
+                        }
+                        .mySlides5F{
+                          transform: translate(85%,0%);
+                        }
+                        .mySlides5F img{
+                          width: 100%;
+                        }
+                        .mySlides02{
+                          transform:translate(100%, -60%);
+                        }
+                        .mySlides02 img{
+                          width:250%;
+                        }
+                        .mySlides02Film{
+                          transform: translate(130%,-90%);
+                        }
+                        .mySlides02Film img{
+                          width: 350%;
+                        }
+                        .mySlides6Sti{
+                          transform: translate(120%,-10%);
+                          width: 180%;
+                        }
+                        .mySlides6StiIm{
+                          transform: translate(240%,-40%);
+                                              width: 98%;
+      
+                        }
+                        .mySlides2Arch{
+                          transform: translate(70%, -10%);
+                        }
+                        .mySlides2Arch img{
+                          width: 130%;
+                        }
+                        .mySlides2Tip{
+                          transform: translate(160%,-130%);
+                          width: 150%;
+                        }
+            
+                        .mySlides7{
+                          transform: translate(115%,-80%);
+                          width: 200%;
+                        }
+                        .mySlides3R{
+                          transform: translate(100%,-120%);
+                          width: 280%;
+                        }
+      
+                        .mySlides0Ve{
+                          transform: translate(260%, -20%);
+                        }
+            .mySlides0Ve img{
+              width: 350%;
+            }
+                  
+                        .mySlides4Mx{
+                          transform: translate(90%,-50%);
+                          width: 270%;
+                        }
+                        .mySlides6Ex{
+                          transform: translate(135%,-80%);
+                          width: 160%;
+                        }
+                  
+                  
+                  
+                  
+                        .textoTom_custome2{
+                          transform: translate(79%, -40%);
+                          font-size: 15px;
+                          width: 160%;
+                        }
+                        .textoTom{
+                          transform: translate(89%, -120%);
+                          font-size: 15px;
+                          width: 260%;
+                        }
+                        .textoTomArch{
+                          transform: translate(10%, 850%);
+                          font-size: 15px;
+                          width: 160%;
+                        }
+                        .textoTom_custome2DIDO{
+                          transform: translate(50%, 140%);
+                          font-size: 15px;
+                          width: 160%;
+                        }
+                        .textoTom_customeFilm{
+                          font-size: 14px;
+                          transform: translate(9%, 110%);
+            
+                        }
+                        .textoTom_customeEx{
+                          transform: translate(150%, -150%);
+                          font-size: 15px;
+                          width: 190%;
+                        }
+                        .textoTom_customeEx1{
+                          transform: translate(29%, -100%);
+                          font-size: 12px;
+                          width: 360%;
+                        }
+                        .textoTom_customeTip{
+                          transform: translate(60%,76%);
+                          width: 420%;
+                          font-size: 12px;
+                        }
+                        .textoTom_customeTipCTM{
+                          transform: translate(40%,160%);
+                          width: 320%;
+                          font-size: 12px;
+                        }
+
+    }
+ /* Smartphone grande  */
+ @media only screen and (max-width: 600px) {
+    .contenideSc button{
+        background-color: black;
+        font-size: 13px;
+    }
+    .botones_1{
+        transform: translate(0%,450px);
+        width: 100px; /* Establece el ancho total deseado */
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+    }
+    .botones_2{
+      transform: translate(0%,250%);
+    }
+
+    .botonesIniciales{
+        width: calc(100% / 6); /* Divide el ancho igualmente entre los 6 botones */
+        box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el ancho total */
+        display: inline-block; /* Coloca los botones en una línea horizontal */
+        text-align: center; /* Centra el texto dentro de los botones */
+        font-size: 10px;
+    }
+      .title-sceno {
+        font-size: 49px;
+        transform: translate(3%,35px);
+      }
+      #logo1{
+        width: 220%;
+        transform: translate(-3%,0%);
+      }
+      .creditsCarla{
+        transform: translate(-50%,-150%);
+        font-size: 55%;
+      }
+      .prev img{
+        width: 20%;
+        transform: translate(50%,0%);
+      }
+      .next img{
+        width: 20%;
+        transform: translate(300%,0%);
+      }
+      .flechitas{
+        transform: translate(0%,-120%);
+      }
+      .slideshow-container3{
+        height: 10%;
+      }
+      .mySlides5 {
+        transform: translate(100%, -80%);
+        width: 190%;
+      }
+      .mySlides6 {
+        transform: translate(95%, -90%);
+        width: 150%;
+      }
+      .mySlides2 {
+        transform: translate(90%, -70%);
+        width: 210%;
+      }
+      .mySlides0 {
+        transform: translate(100%, -90%);
+        width: 200%;
+      }
+      .mySlides3 {
+        transform: translate(80%, -100%);
+        width: 130%;
+      }
+      .mySlides4 {
+        transform: translate(80%, -80%);
+        width: 210%;
+      }
+      .textoTom{
+        transform: translate(190%, 130%);
+        font-size: 10px;
+        width: 130%;
+      }
+      .textoLern{
+        transform: translate(70%, 100%);
+        font-size: 10px;
+      }
+      .blend{
+        transform: translate(-5%,0%);
+        font-size: 12px;
+      }
+      .blend a:hover{
+        font-size: 11px;
+        pointer-events: initial;
+        padding: 20px;
+        width: 15px;
+        -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+        height: 15px;
+        border-radius: 50%;
+      }
+
+       /* Custome-design film drawing photo */
+       .flechitas_custome{
+        transform: translate(0%,-170%);
+      }
+      .mySlides5F{
+        transform: translate(60%,0%);
+      }
+      .mySlides5F img{
+        width: 70%;
+      }
+      .mySlides02{
+        transform:translate(100%, -60%);
+      }
+      .mySlides02 img{
+        width:200%;
+      }
+      .mySlides02Film{
+        transform: translate(110%,-90%);
+      }
+      .mySlides02Film img{
+        width: 280%;
+      }
+      .mySlides6Sti{
+        transform: translate(100%,-10%);
+        width: 150%;
+      }
+      .mySlides6StiIm{
+        transform: translate(180%,-40%);
+                            width: 98%;
+
+      }
+      .mySlides2Arch{
+        transform: translate(40%, -10%);
+      }
+      .mySlides2Arch img{
+        width: 130%;
+      }
+      .mySlides2Tip{
+        transform: translate(117%,-80%);
+        width: 150%;
+      }
+
+      .mySlides7{
+        transform: translate(70%,-80%);
+        width: 200%;
+      }
+      .mySlides3R{
+        transform: translate(80%,-50%);
+        width: 280%;
+      }
+
+      .mySlides0Ve{
+        transform: translate(200%, -20%);
+
+      }
+.mySlides0Ve img{
+width: 250%;
+}
+
+      .mySlides4Mx{
+        transform: translate(90%,-50%);
+        width: 240%;
+      }
+      .mySlides6Ex{
+        transform: translate(150%,-60%);
+        width: 120%;
+      }
+
+
+
+
+      .textoTom_custome2{
+        transform: translate(85%, -30%);
+        font-size: 13px;
+        width: 100%;
+      }
+      .textoTom{
+        transform: translate(89%, -120%);
+        font-size: 13px;
+        width: 260%;
+      }
+      .textoTomArch{
+        transform: translate(10%, -60%);
+        font-size: 15px;
+        width: 100%;
+      }
+      .textoTom_custome2DIDO{
+        transform: translate(1%, 140%);
+        font-size: 12px;
+        width: 260%;
+      }
+      .textoTom_customeFilm{
+        font-size: 12px;
+        transform: translate(0%, 120%);
+        width: 270%;
+
+      }
+      .textoTom_customeEx{
+        transform: translate(150%, -150%);
+        font-size: 12px;
+        width: 290%;
+      }
+      .textoTom_customeEx1{
+        transform: translate(20%, -60%);
+        font-size: 12px;
+        width: 340%;
+      }
+      .textoTom_customeTip{
+        transform: translate(30%,-86%);
+        width: 420%;
+        font-size: 10px;
+      }
+      .textoTom_customeTipCTM{
+        transform: translate(40%,160%);
+        width: 320%;
+        font-size: 12px;
+      }
+
+    }
+ /* Smartphone grande  */
+ @media only screen and (max-width: 560px) {
+      .blend{
+        transform: translate(-5%,0%);
+        font-size: 10px;
+      }
+      .blend a:hover{
+        font-size: 11px;
+        pointer-events: initial;
+        padding: 20px;
+        width: 15px;
+        -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+        height: 15px;
+        border-radius: 50%;
+      }
+      /* OTRAS SECCIONES */
+      .botones_2{
+        transform: translate(0%,210%);
+      }
+      .mySlides02Film{
+        transform: translate(100%,-90%);
+      }
+      .mySlides6Ex{
+        transform: translate(125%,-75%);
+        width: 120%;
+      }
+      .mySlides7{
+        transform: translate(100%,-120%);
+        width: 150%;
+      }
+      .mySlides2Tip{
+        transform: translate(105%,-90%);
+      }
+
+      .mySlides6StiIm{
+        transform: translate(215%,-40%);
+        width: 80%;
+      }
+
+      .textoTom_customeTipCTM{
+        transform: translate(70%,100%);
+        width: 230%;
+        font-size: 12px;
+      }
+      .textoTom_customeEx1{
+        transform: translate(30%,-60%);
+        width: 280%;
+        font-size: 12px;
+      }
+
+    }
+ /* Smartphone  */
+ @media only screen and (max-width: 425px) {
+  .contenideSc button{
+    background-color: black;
+    font-size: 13px;
+}
+.botones_1{
+    transform: translate(0%,450px);
+    width: 100px; /* Establece el ancho total deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.botonesIniciales{
+    width: calc(100% / 6); /* Divide el ancho igualmente entre los 6 botones */
+    box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el ancho total */
+    display: inline-block; /* Coloca los botones en una línea horizontal */
+    text-align: center; /* Centra el texto dentro de los botones */
+    font-size: 10px;
+}
+  .title-sceno {
+    font-size: 39px;
+    transform: translate(3%,45px);
+  }
+  #logo1{
+    width: 220%;
+    transform: translate(-3%,0%);
+  }
+  .creditsCarla{
+    transform: translate(-50%,-90%);
+    font-size: 45%;
+  }
+  .prev img{
+    width: 25%;
+    transform: translate(-10%,0%);
+  }
+  .next img{
+    width: 25%;
+    transform: translate(200%,0%);
+  }
+  .flechitas{
+    transform: translate(0%,-120%);
+  }
+  .slideshow-container3{
+    height: 10%;
+  }
+  .mySlides5 {
+    transform: translate(40%, -80%);
+    width: 190%;
+  }
+  .mySlides6 {
+    transform: translate(25%, -90%);
+    width: 150%;
+  }
+  .mySlides2 {
+    transform: translate(30%, -70%);
+    width: 210%;
+  }
+  .mySlides0 {
+    transform: translate(30%, -100%);
+    width: 200%;
+  }
+  .mySlides3 {
+    transform: translate(5%, -110%);
+    width: 130%;
+  }
+  .mySlides4 {
+    transform: translate(5%, -115%);
+    width: 210%;
+  }
+  .textoTom{
+    transform: translate(200px, 260px);
+    font-size: 10px;
+    width: 190%;
+  }
+  .textoLern{
+    transform: translate(130px, 120px);
+    font-size: 10px;
+    width: 170%;
+
+  }
+  .blend{
+    font-size: 8px;
+    margin-left: -15%;
+    transform: translate(0px, 10px);
+  }
+  .blend a:hover{
+    font-size: 9px;
+    pointer-events: initial;
+    padding: 10px;
+    width: 10px;
+    -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+    height: 10px;
+    border-radius: 50%;
+  }
+  .KasimirLinks:hover{
+    cursor: help;
+    font-size: 12px;
+  }
+
+  /* OTRAS SECCIONES */
+  .botones_2{
+    transform: translate(0%,120%);
+  }
+  .flechitas_custome{
+    transform: translate(0%,-80%);
+
+  }
+  .mySlides6StiIm{
+    transform: translate(135%,-80%);
+  }
+  .mySlides7{
+    transform: translate(50%,-65%);
+  }
+  .mySlides2Tip{
+    transform: translate(40%,-100%);
+  }
+  .mySlides3R{
+    transform: translate(90%,-90%);
+    width: 210%;
+  }
+  .mySlides4Mx{
+    transform: translate(20%,-40%);
+  }
+  .mySlides6Ex{
+    transform: translate(80%,-210%);
+  }
+  .mySlides0Ve{
+        transform: translate(70%,-20%);
+        width: 130%;
+  }
+  .mySlides2Arch{
+    transform: translate(45%,-20%);
+    width: 150%;
+  }
+  .mySlides6Sti{
+    transform: translate(45%,-20%);
+  }
+  .mySlides5F{
+    transform: translate(24%,-20%);
+  }
+  .mySlides02Film{
+    transform: translate(20%,-80%);
+  }
+  .mySlides02{
+    transform: translate(40%,-50%);
+
+  }
+
+
+
+  .textoTom_customeTip{
+    transform: translate(30%,-70%);
+    width: 220%;
+  }
+  .textoTom_custome2{
+    transform: translate(30%,-50%);
+    width: 75%;
+  }
+  .textoTom_customeEx{
+    transform: translate(30%,-90%);
+    width: 220%;
+  }
+  .textoTom_customeTipCTM{
+    transform: translate(30%,-90%);
+    width: 220%;
+  }
+  .textoTom_customeEx1{
+    transform: translate(45%,27%);
+    width: 220%;
+    font-size: 10px;
+  }
+  .textoTom_custome2DIDO{
+    transform: translate(15%,170%);
+    width: 200%;
+    font-size: 10px;
+  }
+
+
+}
+ /* Smartphone  */
+ @media only screen and (max-width: 375px) {
+  .blend{
+    font-size: 10px;
+    transform: translate(110px, 5px);
+  }
+
+  .blendlinks{
+    margin-left: -5px;      
+  }
+  .blend a:hover{
+    font-size: 8px;
+    pointer-events: initial;
+    -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+  }
+  .KasimirLinks:hover{
+    cursor: help;
+    font-size: 12px;
+  }
+  .contenideSc button{
+    background-color: black;
+    font-size: 10px;
+}
+.botones_1{
+    transform: translate(-10%,390px);
+    width: 80px; /* Establece el ancho total deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.botonesIniciales{
+    width: calc(100% / 6); /* Divide el ancho igualmente entre los 6 botones */
+    box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el ancho total */
+    display: inline-block; /* Coloca los botones en una línea horizontal */
+    text-align: center; /* Centra el texto dentro de los botones */
+    font-size: 10px;
+}
+  .title-sceno {
+    font-size: 39px;
+    transform: translate(3%,65px);
+  }
+  #logo1{
+    width: 220%;
+    transform: translate(-5%,0%);
+  }
+  .creditsCarla{
+    transform: translate(-60%,-20%);
+    font-size: 35%;
+  }
+  .prev img{
+    width: 25%;
+    transform: translate(-10%,0%);
+  }
+  .next img{
+    width: 25%;
+    transform: translate(200%,0%);
+  }
+  .flechitas{
+    transform: translate(0%,-120%);
+  }
+  .slideshow-container3{
+    height: 10%;
+  }
+  .mySlides5 {
+    transform: translate(50%, -70%);
+    width: 150%;
+  }
+  .mySlides6 {
+    transform: translate(35%, -90%);
+    width: 130%;
+  }
+  .mySlides2 {
+    transform: translate(25%, -70%);
+    width: 190%;
+  }
+  .mySlides0 {
+    transform: translate(30%, -80%);
+    width: 180%;
+  }
+  .mySlides3 {
+    transform: translate(25%, -150%);
+    width: 100%;
+  }
+  .mySlides4 {
+    transform: translate(13%, -115%);
+    width: 190%;
+  }
+  .textoTom{
+    transform: translate(130px, 260px);
+    font-size: 10px;
+    width: 190%;
+  }
+  .textoLern{
+    transform: translate(120px, 120px);
+    font-size: 8px;
+    width: 150%;
+
+  }
+  .blend{
+    font-size: 7px;
+    margin-left: -55%;
+    transform: translate(102px, 5px);
+  }
+  .blend a:hover{
+    font-size: 8px;
+    pointer-events: initial;
+    -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+  }
+  .KasimirLinks:hover{
+    cursor: help;
+    font-size: 12px;
+  }
+
+}
+ /* Smartphone  */
+ @media only screen and (max-width: 320px) {
+  .contenideSc button{
+    background-color: black;
+    font-size: 10px;
+}
+.botones_1{
+    transform: translate(-10%,355px);
+    width: 80px; /* Establece el ancho total deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.botonesIniciales{
+    width: calc(100% / 6); /* Divide el ancho igualmente entre los 6 botones */
+    box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el ancho total */
+    display: inline-block; /* Coloca los botones en una línea horizontal */
+    text-align: center; /* Centra el texto dentro de los botones */
+    font-size: 10px;
+}
+  .title-sceno {
+    font-size: 39px;
+    transform: translate(3%,75px);
+  }
+  #logo1{
+    width: 220%;
+    transform: translate(-7%,0%);
+  }
+  .creditsCarla{
+    transform: translate(-50%,300%);
+    font-size: 35%;
+  }
+  .prev img{
+    width: 25%;
+    transform: translate(-10%,0%);
+  }
+  .next img{
+    width: 25%;
+    transform: translate(200%,0%);
+  }
+  .flechitas{
+    transform: translate(0%,-120%);
+  }
+  .slideshow-container3{
+    height: 10%;
+  }
+  .mySlides5 {
+    transform: translate(50%, -100%);
+    width: 120%;
+  }
+  .mySlides6 {
+    transform: translate(45%, -100%);
+    width: 100%;
+  }
+  .mySlides2 {
+    transform: translate(40%, -70%);
+    width: 140%;
+  }
+  .mySlides0 {
+    transform: translate(20%, -120%);
+    width: 150%;
+  }
+  .mySlides3 {
+    transform: translate(35%, -150%);
+    width: 100%;
+  }
+  .mySlides4 {
+    transform: translate(13%, -115%);
+    width: 190%;
+  }
+  .textoTom{
+    transform: translate(90px, 160px);
+    font-size: 10px;
+    width: 190%;
+  }
+  .textoLern{
+    transform: translate(110px, 120px);
+    font-size: 8px;
+    width: 150%;
+
+  }
+  .blend{
+    font-size: 10px;
+    transform: translate(110px, 5px);
+  }
+
+  .blendlinks{
+    margin-left: -5px;      
+  }
+  .blend a:hover{
+    font-size: 8px;
+    pointer-events: initial;
+    -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+  }
+  .KasimirLinks:hover{
+    cursor: help;
+    font-size: 12px;
+  }
+
+}
