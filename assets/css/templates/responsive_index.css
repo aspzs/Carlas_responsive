@@ -220,35 +220,35 @@
       }
 
     .optionen{
-        margin-top: 15vh;
+        margin-top: 20vh;
         width: 20%;
       }
   
           .icons{
-          font-size: 40px;
+          font-size: 50px;
           cursor: zoom-in;
-          background-color: white;
           text-align: center;
-          transform: translate(5%,-45%);
+          background-color: white;
+          transform: translate(35%,-45%);
         }
         
         .icons1{
           width: 120%;
-          font-size: 40px;
+          font-size: 50px;
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
           text-align: center;
-          transform: translate(150%,-145%);
+          transform: translate(190%,-145%);
         }
         
         .icons2{
-          font-size: 40px;
+          font-size: 50px;
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
           text-align: center;
-          transform: translate(410%,-245%);
+          transform: translate(480%,-245%);
         }
   
       #wrapper-border {
@@ -265,13 +265,13 @@
   
   .year-border {
     width: 16.666666vw;
-    height: 50%;
+    height: 0%;
     transition: transform .5s;
     transform: translate(0px, -40vh);
   }
   .year-borderSC {
     width: 20.666666vw;
-    height: 50%;
+    height: 0%;
     transition: transform .5s;
     transform: translate(0px, -40vh);
 
@@ -279,7 +279,7 @@
   }
   .year-borderSSC {
     width: 11.666666vw;
-    height: 50%;
+    height: 0%;
     transition: transform .5s;
     transform: translate(0px, -40vh);
 
@@ -300,29 +300,29 @@
   }
   
   .imagen1{
-      width: 120%;
-      transform: translate(-7vh, 80vh);
+      width: 160%;
+      transform: translate(03vh, 90vh);
     }
     .imagen2{
-      width: 120%;
-      transform: translate(3vh, 77vh);
+      width: 150%;
+      transform: translate(15vh, 77vh);
     }
     .imagen3{
-      width: 100%;
-      transform: translate(11vh, 77vh);
+      width: 120%;
+      transform: translate(25vh, 95vh);
     }
     .imagen4{
-      width: 180%;
-      transform: translate(15vh, 85vh);
+      width: 200%;
+      transform: translate(28vh, 85vh);
     
     }
     .imagen5{
-      width: 100%;
-      transform: translate(27vh, 63vh);
+      width: 80%;
+      transform: translate(43vh, 73vh);
     }
 
     .options_sceno{
-        font-size: 20px;
+        font-size: 29px;
         padding: 10px;
         width: 100%;
         transform: translate(20%,0%);
@@ -334,7 +334,7 @@
       }
 
       .options_costu{
-        font-size: 20px;
+        font-size: 29px;
         padding: 10px;
         width: 150%;
         transform: translate(5%,0%);
@@ -345,7 +345,7 @@
       }
 
       .options_photo{
-        font-size: 20px;
+        font-size: 29px;
         padding: 10px;
         width: 100%;
         transform: translate(19%,0%);
@@ -358,7 +358,7 @@
       }
 
       .options_film{
-        font-size: 20px;
+        font-size: 29px;
         padding: 10px;
         width: 100%;
         transform: translate(40%,0%);
@@ -369,7 +369,7 @@
       }
 
       .options_draw{
-        font-size: 20px;
+        font-size: 29px;
         padding: 10px;
         width: 100%;
         transform: translate(10%,0%);
@@ -392,7 +392,7 @@
       }
 
     .optionen{
-        margin-top: 15vh;
+        margin-top: 20vh;
         width: 20%;
       }
   
@@ -400,7 +400,7 @@
           font-size: 40px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(5%,-55%);
+          transform: translate(100%,-55%);
         }
         
         .icons1{
@@ -409,7 +409,7 @@
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(140%,-155%);
+          transform: translate(250%,-155%);
         }
         
         .icons2{
@@ -418,7 +418,7 @@
           cursor: zoom-in;
           background-color: white;
           width: 120%;
-          transform: translate(300%,-245%);
+          transform: translate(450%,-245%);
         }
   
       #wrapper-border {
@@ -470,32 +470,31 @@
   }
   
   .imagen1{
-      width: 170%;
-      transform: translate(5vh, 60vh);
+      width: 200%;
+      transform: translate(20vh, 70vh);
     }
     .imagen2{
-      width: 170%;
-      transform: translate(17vh, 60vh);
+      width: 200%;
+      transform: translate(47vh, 70vh);
     }
     .imagen3{
-      width: 170%;
-      transform: translate(30vh, 60vh);
+      width: 200%;
+      transform: translate(70vh, 70vh);
     }
     .imagen4{
       width: 370%;
-      transform: translate(-35vh, 100vh);
-    
+      transform: translate(-15vh, 130vh);
     }
     .imagen5{
       width: 100%;
-      transform: translate(20%, 90vh);
+      transform: translate(40vh, 120vh);
     }
 
     .options_sceno{
         font-size: 20px;
         padding: 10px;
         width: 100%;
-        transform: translate(30%,0%);
+        transform: translate(60%,0%);
       }
     .options_sceno:hover{
         width: 100%;
@@ -507,7 +506,7 @@
         font-size: 20px;
         padding: 10px;
         width: 100%;
-        transform: translate(30%,0%);
+        transform: translate(35%,0%);
       }
     .options_costu:hover{
         transform: translate(40%,0%);
@@ -518,7 +517,7 @@
         font-size: 20px;
         padding: 10px;
         width: 100%;
-        transform: translate(10%,0%);
+        transform: translate(30%,0%);
       }
     .options_photo:hover{
         transform: translate(-10%,0%);
@@ -894,13 +893,13 @@
 @media only screen and (max-width: 425px){
     #logo {
        color: black !important;
-       font-size: 530%;
+       font-size: 50px;
        background-color: white;
        text-align: center;
       }
   
     .optionen{
-        margin-top: 23%;
+        margin-top: 20%;
         width: 20%;
       }
   
@@ -908,16 +907,16 @@
           font-size: 30px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(5%,-75%);
+          transform: translate(25%,-35%);
         }
         
         .icons1{
-          width: 120%;
+          width: 120px;
           font-size: 30px;
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(140%,-175%);
+          transform: translate(100%,-130%);
         }
         
         .icons2{
@@ -925,7 +924,7 @@
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(300%,-275%);
+          transform: translate(270%,-230%);
         }
   
       #wrapper-border {
@@ -978,51 +977,53 @@
   
   .imagen1{
       width: 250%;
-      transform: translate(-5vh, 60vh);
+      transform: translate(-5vh, 58vh);
     }
     .imagen2{
-      width: 250%;
-      transform: translate(8vh, 60vh);
+      width: 170%;
+      transform: translate(10vh, 60vh);
     }
     .imagen3{
       width: 230%;
-      transform: translate(21vh, 60vh);
+      transform: translate(17vh, 60vh);
     }
     .imagen4{
       width: 470%;
-      transform: translate(-25vh, 100vh);
+      transform: translate(-28vh, 100vh);
     
     }
     .imagen5{
-      width: 100%;
-      transform: translate(25%, 95vh);
+      width: 150%;
+      transform: translate(5%, 86vh);
     }
   
     .options_sceno{
-        font-size: 16px;
+        font-size: 13px;
         padding: 10px;
         width: 100%;
         transform: translate(-5%,0%);
       }
     .options_sceno:hover{
-        width: 120%;
+        width: 135%;
         transform: translate(10%,0%);
         cursor: help;
       }
   
       .options_costu{
-        font-size: 16px;
+        font-size: 13px;
         padding: 10px;
         width: 100%;
-        transform: translate(25%,0%);
+        transform: translate(25%,-13%);
       }
     .options_costu:hover{
         transform: translate(40%,0%);
         cursor: help;
+        width: 110%;
+
       }
   
       .options_photo{
-        font-size: 16px;
+        font-size: 13px;
         padding: 10px;
         width: 100%;
         transform: translate(10%,0%);
@@ -1030,12 +1031,12 @@
     .options_photo:hover{
         transform: translate(-10%,0%);
         cursor: help;
-        width: 120%;
+        width: 140%;
   
       }
   
       .options_film{
-        font-size: 16px;
+        font-size: 13px;
         padding: 10px;
         width: 100%;
         transform: translate(45%,0%);
@@ -1046,7 +1047,7 @@
       }
   
       .options_draw{
-        font-size: 16px;
+        font-size: 13px;
         padding: 10px;
         width: 100%;
         transform: translate(-5%,0%);
@@ -1054,7 +1055,10 @@
     .options_draw:hover{
         transform: translate(-10%,0%);
         cursor: help;
+        width: 110%;
+
       }
+  
   
   
   } 
@@ -1090,11 +1094,11 @@
         }
         
         .icons2{
-          font-size: 30px;
+          font-size: 25px;
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(300%,-275%);
+          transform: translate(300%,-308%);
         }
   
       #wrapper-border {
@@ -1236,13 +1240,13 @@
 @media only screen and (max-width: 320px){
   #logo {
     color: black !important;
-    font-size: 360%;
+    font-size: 380%;
     background-color: white;
     text-align: center;
    }
 
    .optionen{
-    margin-top: 23%;
+    margin-top: 27%;
     width: 20%;
   }
 
@@ -1259,7 +1263,7 @@
       margin-left: 10px;
       cursor: zoom-in;
       background-color: white;
-      transform: translate(130%,-208%);
+      transform: translate(150%,-208%);
     }
       
       .icons2{
@@ -1267,7 +1271,7 @@
         cursor: zoom-in;
         text-align: left;
         background-color: white;
-        transform: translate(295%,-300%);
+        transform: translate(350%,-300%);
       }
 
 
