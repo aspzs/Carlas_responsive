@@ -189,11 +189,11 @@
 
 .imagen1{
     width: 80%;
-    transform: translate(137%, 40vh);
+    transform: translate(137%, 34vh);
   }
   .imagen2{
     width: 90%;
-    transform: translate(117%, 60vh);
+    transform: translate(117%, 50vh);
   }
   .imagen3{
     width: 50%;
@@ -239,7 +239,7 @@
           cursor: zoom-in;
           background-color: white;
           text-align: center;
-          transform: translate(190%,-145%);
+          transform: translate(200%,-145%);
         }
         
         .icons2{
@@ -301,46 +301,43 @@
   
   .imagen1{
       width: 160%;
-      transform: translate(03vh, 90vh);
+      transform: translate(0vh, 90vh);
     }
     .imagen2{
       width: 150%;
-      transform: translate(15vh, 77vh);
+      transform: translate(12vh, 77vh);
     }
     .imagen3{
       width: 120%;
-      transform: translate(25vh, 95vh);
+      transform: translate(22vh, 95vh);
     }
     .imagen4{
       width: 200%;
-      transform: translate(28vh, 85vh);
+      transform: translate(25vh, 85vh);
     
     }
     .imagen5{
-      width: 80%;
-      transform: translate(43vh, 73vh);
+      width: 110%;
+      transform: translate(40vh, 73vh);
     }
 
     .options_sceno{
         font-size: 29px;
         padding: 10px;
-        width: 100%;
+        width: 80%;
         transform: translate(20%,0%);
       }
     .options_sceno:hover{
-        width: 100%;
-        transform: translate(10%,0%);
         cursor: help;
       }
 
       .options_costu{
         font-size: 29px;
         padding: 10px;
-        width: 150%;
+        width: 120%;
         transform: translate(5%,0%);
       }
     .options_costu:hover{
-        transform: translate(40%,0%);
         cursor: help;
       }
 
@@ -351,10 +348,7 @@
         transform: translate(19%,0%);
       }
     .options_photo:hover{
-        transform: translate(-10%,0%);
         cursor: help;
-        width: 100%;
-
       }
 
       .options_film{
@@ -364,7 +358,6 @@
         transform: translate(40%,0%);
       }
     .options_film:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
 
@@ -375,7 +368,6 @@
         transform: translate(10%,0%);
       }
     .options_draw:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
 
@@ -400,7 +392,7 @@
           font-size: 40px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(100%,-55%);
+          transform: translate(100%,-135%);
         }
         
         .icons1{
@@ -409,7 +401,7 @@
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(250%,-155%);
+          transform: translate(205%,-235%);
         }
         
         .icons2{
@@ -418,7 +410,7 @@
           cursor: zoom-in;
           background-color: white;
           width: 120%;
-          transform: translate(450%,-245%);
+          transform: translate(350%,-335%);
         }
   
       #wrapper-border {
@@ -470,81 +462,74 @@
   }
   
   .imagen1{
-      width: 200%;
-      transform: translate(20vh, 70vh);
+      width: 260%;
+      transform: translate(0vh, 70vh);
     }
     .imagen2{
-      width: 200%;
-      transform: translate(47vh, 70vh);
+      width: 260%;
+      transform: translate(22vh, 70vh);
     }
     .imagen3{
-      width: 200%;
-      transform: translate(70vh, 70vh);
+      width: 260%;
+      transform: translate(45vh, 70vh);
     }
     .imagen4{
-      width: 370%;
-      transform: translate(-15vh, 130vh);
+      width: 410%;
+      transform: translate(-25vh, 130vh);
     }
     .imagen5{
-      width: 100%;
-      transform: translate(40vh, 120vh);
+      width: 160%;
+      transform: translate(25vh, 110vh);
     }
 
     .options_sceno{
-        font-size: 20px;
+        font-size: 25px;
         padding: 10px;
         width: 100%;
-        transform: translate(60%,0%);
+        transform: translate(40%,0%);
       }
     .options_sceno:hover{
-        width: 100%;
-        transform: translate(10%,0%);
         cursor: help;
       }
 
       .options_costu{
-        font-size: 20px;
+        font-size: 25px;
         padding: 10px;
-        width: 100%;
-        transform: translate(35%,0%);
+        width: 120%;
+        transform: translate(20%,0%);
       }
     .options_costu:hover{
-        transform: translate(40%,0%);
         cursor: help;
       }
 
       .options_photo{
-        font-size: 20px;
+        font-size: 25px;
         padding: 10px;
         width: 100%;
         transform: translate(30%,0%);
       }
     .options_photo:hover{
-        transform: translate(-10%,0%);
         cursor: help;
-        width: 100%;
 
       }
 
       .options_film{
-        font-size: 20px;
+        font-size: 25px;
         padding: 10px;
         width: 100%;
         transform: translate(30%,0%);
       }
     .options_film:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
 
       .options_draw{
-        font-size: 20px;
+        font-size: 25px;
         padding: 10px;
         width: 100%;
         transform: translate(-10%,0%);
       }
     .options_draw:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
 
@@ -666,8 +651,6 @@
       transform: translate(30%,0%);
     }
   .options_sceno:hover{
-      width: 100%;
-      transform: translate(10%,0%);
       cursor: help;
     }
 
@@ -678,7 +661,6 @@
       transform: translate(30%,0%);
     }
   .options_costu:hover{
-      transform: translate(40%,0%);
       cursor: help;
     }
 
@@ -689,10 +671,7 @@
       transform: translate(10%,0%);
     }
   .options_photo:hover{
-      transform: translate(-10%,0%);
       cursor: help;
-      width: 100%;
-
     }
 
     .options_film{
@@ -702,7 +681,6 @@
       transform: translate(30%,0%);
     }
   .options_film:hover{
-      transform: translate(-10%,0%);
       cursor: help;
     }
 
@@ -713,7 +691,6 @@
       transform: translate(-10%,0%);
     }
   .options_draw:hover{
-      transform: translate(-10%,0%);
       cursor: help;
     }
 
@@ -835,8 +812,6 @@
         transform: translate(15%,0%);
       }
     .options_sceno:hover{
-        width: 120%;
-        transform: translate(10%,0%);
         cursor: help;
       }
   
@@ -847,7 +822,6 @@
         transform: translate(30%,0%);
       }
     .options_costu:hover{
-        transform: translate(40%,0%);
         cursor: help;
       }
   
@@ -858,10 +832,7 @@
         transform: translate(10%,0%);
       }
     .options_photo:hover{
-        transform: translate(-10%,0%);
-        cursor: help;
-        width: 120%;
-  
+        cursor: help;  
       }
   
       .options_film{
@@ -871,7 +842,6 @@
         transform: translate(30%,0%);
       }
     .options_film:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
   
@@ -882,7 +852,6 @@
         transform: translate(-10%,0%);
       }
     .options_draw:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
   
@@ -907,7 +876,7 @@
           font-size: 30px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(25%,-35%);
+          transform: translate(25%,-30%);
         }
         
         .icons1{
@@ -924,7 +893,7 @@
           margin-left: 10px;
           cursor: zoom-in;
           background-color: white;
-          transform: translate(270%,-230%);
+          transform: translate(280%,-230%);
         }
   
       #wrapper-border {
@@ -989,7 +958,7 @@
     }
     .imagen4{
       width: 470%;
-      transform: translate(-28vh, 100vh);
+      transform: translate(-23vh, 100vh);
     
     }
     .imagen5{
@@ -1004,8 +973,6 @@
         transform: translate(-5%,0%);
       }
     .options_sceno:hover{
-        width: 135%;
-        transform: translate(10%,0%);
         cursor: help;
       }
   
@@ -1016,11 +983,8 @@
         transform: translate(25%,-13%);
       }
     .options_costu:hover{
-        transform: translate(40%,0%);
-        cursor: help;
-        width: 110%;
-
-      }
+      cursor: help;
+    }
   
       .options_photo{
         font-size: 13px;
@@ -1029,10 +993,7 @@
         transform: translate(10%,0%);
       }
     .options_photo:hover{
-        transform: translate(-10%,0%);
-        cursor: help;
-        width: 140%;
-  
+      cursor: help;
       }
   
       .options_film{
@@ -1042,7 +1003,6 @@
         transform: translate(45%,0%);
       }
     .options_film:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
   
@@ -1053,10 +1013,7 @@
         transform: translate(-5%,0%);
       }
     .options_draw:hover{
-        transform: translate(-10%,0%);
         cursor: help;
-        width: 110%;
-
       }
   
   
@@ -1178,8 +1135,6 @@
         transform: translate(-5%,0%);
       }
     .options_sceno:hover{
-        width: 135%;
-        transform: translate(10%,0%);
         cursor: help;
       }
   
@@ -1190,10 +1145,7 @@
         transform: translate(25%,0%);
       }
     .options_costu:hover{
-        transform: translate(40%,0%);
         cursor: help;
-        width: 110%;
-
       }
   
       .options_photo{
@@ -1203,10 +1155,7 @@
         transform: translate(10%,0%);
       }
     .options_photo:hover{
-        transform: translate(-10%,0%);
-        cursor: help;
-        width: 140%;
-  
+        cursor: help;  
       }
   
       .options_film{
@@ -1216,7 +1165,6 @@
         transform: translate(45%,0%);
       }
     .options_film:hover{
-        transform: translate(-10%,0%);
         cursor: help;
       }
   
@@ -1227,10 +1175,7 @@
         transform: translate(-5%,0%);
       }
     .options_draw:hover{
-        transform: translate(-10%,0%);
         cursor: help;
-        width: 110%;
-
       }
   
   
@@ -1282,8 +1227,6 @@
       transform: translate(-13%,0%);
     }
   .options_sceno:hover{
-      width: 135%;
-      transform: translate(10%,0%);
       cursor: help;
     }
 

@@ -21,8 +21,12 @@
 //   ellipse(mouseX, mouseY, E);
 // }
 
+let slowEllipseX = 0;
+let slowEllipseY = 0;
+
 function setup() {
-  createCanvas(windowWidth, windowHeight).position(0, 0).style('z-index', '-1');  background(255);
+  createCanvas(windowWidth, windowHeight).position(0, 0).style('z-index', '-1');  
+  background(255);
   stroke(0);
 }
 
@@ -37,19 +41,28 @@ function draw() {
   stroke(gray);
 
   line(x1, y1, x2, y2);
-  line(x1+2, y1+1, x2, y2);
-  line(x1, y1, x2+2, y2+2);
+  line(x1 + 2, y1 + 1, x2, y2);
+  line(x1, y1, x2 + 2, y2 + 2);
 }
+
 function mouseMoved() {
   background(255); // Limpia el fondo en cada movimiento del mouse
   fill(150);
-  ellipse(mouseX, mouseY, 20, 20);
+
+  // Dibuja el elipse que sigue al mouse rápidamente
+  ellipse(mouseX, mouseY, 50, 50);
   fill(50);
-  ellipse(mouseX, 0, 50, 50);
-  ellipse(windowWidth, mouseY, 50, 50);
+
+  // Dibuja un segundo elipse que sigue al mouse lentamente
+  slowEllipseX = lerp(slowEllipseX, mouseX, 0.15);
+  slowEllipseY = lerp(slowEllipseY, mouseY, 0.15);
+  ellipse(slowEllipseX-30, slowEllipseY, 20, 20);
+  ellipse(slowEllipseX+30, slowEllipseY, 20, 20);
+
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
+
 

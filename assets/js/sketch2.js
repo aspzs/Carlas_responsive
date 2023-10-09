@@ -1,3 +1,6 @@
+let slowEllipseX = 0;
+let slowEllipseY = 0;
+
 function setup() {
   createCanvas(windowWidth, windowHeight).position(0, 0).style('z-index', '-1');
   }
@@ -27,6 +30,11 @@ function setup() {
         }
       }
     }
+    fill(50);
+    slowEllipseX = lerp(slowEllipseX, mouseX, 0.15);
+    slowEllipseY = lerp(slowEllipseY, mouseY, 0.15);
+    ellipse(slowEllipseX-30, slowEllipseY, 20, 20);
+
     fill(235);
     ellipse(mouseX, mouseY, 30);
   }

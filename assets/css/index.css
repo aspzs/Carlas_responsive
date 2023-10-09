@@ -265,11 +265,10 @@ body a {
     transform: rotate(-35deg);
 }
 
-.icono_Carla{
-  width: 13%;
-  transform: translate(530%, -55%);
+.icono_Carla img{
+  width: 153%;
+  transform: translate(-110%, 15%);
   z-index: -999;
-  position: fixed;
 }
 
 .credits{
@@ -354,18 +353,17 @@ body a {
   font-family: 'OBC-Light', Courier, monospace;
   font-size: 19px;
   padding: 20px;
-  width: 100%;
-  transform: translate(80%,0%);
+  width: 65%;
+  transform: translate(120%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition: 1s;
 
 }
 .options_costu:hover{
   color: white;
   background-color: black;
-  width: 82%;
-  cursor: help;
+  cursor: pointer;
 
 }
 
@@ -373,72 +371,64 @@ body a {
   font-family: 'OBC-Light', Courier, monospace;
   font-size: 19px;
   padding: 20px;
-  width: 100%;
-  transform: translate(100%,0%);
+  width: 55%;
+  transform: translate(180%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition: 1s;
 }
 .options_sceno:hover{
   color: white;
   background-color: black;
-  width: 80%;
-  transform: translate(110%,0%);
-  cursor: help;
+  cursor: pointer;
 }
 
 .options_photo{
   font-family: 'OBC-Light', Courier, monospace;
   font-size: 19px;
   padding: 20px;
-  width: 100%;
-  transform: translate(55%,0%);
+  width: 55%;
+  transform: translate(100%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition:  1s;
 }
 .options_photo:hover{
   color: white;
   background-color: black;
-  width: 60%;
-  transform: translate(85%,0%);
-  cursor: help;
+  cursor: pointer;
 }
 
 .options_film{
   font-family: 'OBC-Light', Courier, monospace;
   font-size: 19px;
   padding: 20px;
-  width: 100%;
-  transform: translate(50%,0%);
+  width: 30%;
+  transform: translate(150%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition:  1s;
 }
 .options_film:hover{
   color: white;
   background-color: black;
-  width: 105%;
-  transform: translate(8%,0%);
-  cursor: help;
+  cursor: pointer;
 }
 
 .options_draw{
   font-family: 'OBC-Light', Courier, monospace;
   font-size: 19px;
   padding: 20px;
-  width: 100%;
-  transform: translate(40%,0%);
+  width: 43%;
+  transform: translate(80%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition: 1s;
 }
 .options_draw:hover{
   color: white;
   background-color: black;
-  width: 85%;
-  transform: translate(15%,0%);
-  cursor: help;
+  cursor: pointer;
 }
 
 
@@ -450,14 +440,14 @@ body a {
   width: 70%;
   transform: translate(90%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition: 1s;
 
 }
 .optionsBio_costu:hover{
   color: white;
   background-color: black;
-  cursor: help;
+  cursor: pointer;
 
 }
 
@@ -468,13 +458,13 @@ body a {
   width: 50%;
   transform: translate(210%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition: 1s;
 }
 .optionsBio_sceno:hover{
   color: white;
   background-color: black;
-  cursor: help;
+  cursor: pointer;
 }
 
 .optionsBio_photo{
@@ -484,13 +474,13 @@ body a {
   width: 55%;
   transform: translate(65%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition:  1s;
 }
 .optionsBio_photo:hover{
   color: white;
   background-color: black;
-  cursor: help;
+  cursor: pointer;
 }
 
 .optionsBio_film{
@@ -500,13 +490,13 @@ body a {
   width: 30%;
   transform: translate(10%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition:  1s;
 }
 .optionsBio_film:hover{
   color: white;
   background-color: black;
-  cursor: help;
+  cursor: pointer;
 }
 
 .optionsBio_draw{
@@ -516,13 +506,13 @@ body a {
   width: 40%;
   transform: translate(-120%,0%);
   color: black;
-  cursor: help;
+  cursor: pointer;
   transition: 1s;
 }
 .optionsBio_draw:hover{
   color: white;
   background-color: black;
-  cursor: help;
+  cursor: pointer;
 }
 /* FIN BIO */
 
@@ -640,14 +630,9 @@ body a {
 }
 
 .blend a:hover{
-  font-size: 18px;
   pointer-events: initial;
-  padding: 20px;
-  width: 100px;
+  padding: 7px;
   -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
-  height: 100px;
-
-border-radius: 50%;
 
 }
 /* FIN LINKS DEBAJO EN LAS SECCIONES */
@@ -685,7 +670,7 @@ border-radius: 50%;
   height: 100%;
 }
 .title-sceno {
-  font-family: 'OBC-light','Courier New', Courier, monospace;
+  font-family: 'ABCCamera-Regular', Arial, Helvetica, sans-serif;
   color: rgb(223, 219, 218);
   border-bottom: 3px dotted white;
   width: 950%;
@@ -741,9 +726,9 @@ a {
 }
 
 .creditsCarla{
-  margin-left: 550%;
-  transform: translateY(-420%);
-  font-size: 65%;
+  margin-left: 40%;
+  margin-top: 295%;
+  font-size: 13px;
   padding: 3%;
   position: fixed;
   font-family: 'SuisseNeue-light', Courier, monospace;
@@ -1185,8 +1170,8 @@ header {
 }
 .KasimirLinks:hover{
   color: rgb(218, 187, 187);
-  cursor: help;
-  font-size: 17px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 #contenido1{
@@ -1321,15 +1306,13 @@ margin-top: 70%;
   position:sticky;
   padding: 20px;
   height: 130px;
-  background-color: rgba(79, 68, 68, 0.16);
+  background-color: rgba(79, 68, 68, 0.049);
   transform: translate(190%,-550%);
   z-index: 99999;
-  border-radius: 100%;
-  border: 2px dotted white;
 }
 
 .prev img:hover{
-  cursor: w-resize;	
+  cursor: pointer;	
   background-color: rgba(79, 68, 68, 0.683);
 }
 
@@ -1338,15 +1321,14 @@ margin-top: 70%;
   position:sticky;
   padding: 20px;
   height: 130px;
-  background-color: rgba(79, 68, 68, 0.16);
+  background-color: rgba(79, 68, 68, 0.049);
   transform: translate(580%,-550%);
   z-index: 99999;
-  border-radius: 100%;
-  border: 2px dotted white;
+
 
 }
 .next img:hover{
-  cursor: e-resize;
+  cursor: pointer;	
   background-color: rgba(79, 68, 68, 0.683);
 }
 
@@ -1359,7 +1341,7 @@ margin-top: 70%;
 }
 
 .numbertextS {
-  font-family:'AppleGaramond', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'ABCCamera-Regular', Arial, Helvetica, sans-serif;
   z-index: 999991;
   background-color: #f2f2f2;
   color: #131313;

@@ -8,8 +8,8 @@
         transform: translate(0%,-50%);
       }
       .creditsCarla{
-        transform: translate(-70%,-460%);
-        font-size: 165%;
+        transform: translate(-75%,-1050%);
+        font-size: 18px;
       }
       .prev img{
         transform: translate(190%,-750%);
@@ -151,8 +151,8 @@
         transform: translate(0%,-10%);
       }
       .creditsCarla{
-        transform: translate(-70%,-320%);
-        font-size: 95%;
+        transform: translate(-75%,-640%);
+        font-size: 10px;
       }
       .prev img{
         transform: translate(190%,-550%);
@@ -217,8 +217,8 @@
               width: 400%;
             }
             .mySlides6Sti{
-              transform: translate(270%,-10%);
-              width: 180%;
+              transform: translate(300%,-40%);
+              width: 140%;
             }
             .mySlides2Arch{
               transform: translate(170%, -10%);
@@ -232,11 +232,11 @@
             }
 
             .mySlides7{
-              transform: translate(190%,-40%);
-              width: 200%;
+              transform: translate(150%,-70%);
+              width: 80%;
             }
             .mySlides3R{
-              transform: translate(180%,-60%);
+              transform: translate(180%,-80%);
               width: 280%;
             }
       
@@ -293,8 +293,8 @@
         transform: translate(1%,-10%);
       }
       .creditsCarla{
-        transform: translate(-50%,-395%);
-        font-size: 75%;
+        transform: translate(-70%,325%);
+        font-size: 10px;
       }
       .prev img{
         transform: translate(190%,-350%);
@@ -463,12 +463,12 @@
         font-size: 13px;
       }
       .title-sceno {
-        font-size: 59px;
-        transform: translate(1%,-10%);
+        font-size: 50px;
+        transform: translate(1%,20%);
       }
       .creditsCarla{
-        transform: translate(-50%,-255%);
-        font-size: 75%;
+        transform: translate(-60%,535%);
+        font-size: 10px;
       }
       .flechitas{
         transform: translate(0%,50%);
@@ -641,7 +641,7 @@
         font-size: 13px;
     }
     .botones_1{
-        transform: translate(0%,450px);
+        transform: translate(0%,350px);
         width: 100px; /* Establece el ancho total deseado */
         margin: 0 auto; /* Centra el contenedor horizontalmente */
     }
@@ -665,8 +665,8 @@
         transform: translate(-3%,0%);
       }
       .creditsCarla{
-        transform: translate(-50%,-150%);
-        font-size: 55%;
+        transform: translate(-40%,850%);
+        font-size: 10px;
       }
       .prev img{
         width: 20%;
@@ -906,7 +906,7 @@ width: 250%;
     font-size: 13px;
 }
 .botones_1{
-    transform: translate(0%,450px);
+    transform: translate(0%,300px);
     width: 100px; /* Establece el ancho total deseado */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
@@ -927,7 +927,7 @@ width: 250%;
     transform: translate(-3%,0%);
   }
   .creditsCarla{
-    transform: translate(-50%,-90%);
+    transform: translate(-30%,1400%);
     font-size: 45%;
   }
   .prev img{
@@ -1102,7 +1102,7 @@ width: 250%;
     font-size: 10px;
 }
 .botones_1{
-    transform: translate(-10%,390px);
+    transform: translate(-10%,300px);
     width: 80px; /* Establece el ancho total deseado */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
@@ -1123,8 +1123,8 @@ width: 250%;
     transform: translate(-5%,0%);
   }
   .creditsCarla{
-    transform: translate(-60%,-20%);
-    font-size: 35%;
+    transform: translate(-32%,1520%);
+    font-size: 8px;
   }
   .prev img{
     width: 25%;
@@ -1176,8 +1176,8 @@ width: 250%;
 
   }
   .blend{
-    font-size: 7px;
-    margin-left: -55%;
+    font-size: 10px;
+    margin-left: -40%;
     transform: translate(102px, 5px);
   }
   .blend a:hover{
@@ -1198,7 +1198,7 @@ width: 250%;
     font-size: 10px;
 }
 .botones_1{
-    transform: translate(-10%,355px);
+    transform: translate(-10%,255px);
     width: 80px; /* Establece el ancho total deseado */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
@@ -1219,7 +1219,7 @@ width: 250%;
     transform: translate(-7%,0%);
   }
   .creditsCarla{
-    transform: translate(-50%,300%);
+    transform: translate(-40%,1700%);
     font-size: 35%;
   }
   .prev img{
@@ -1273,7 +1273,7 @@ width: 250%;
   }
   .blend{
     font-size: 10px;
-    transform: translate(110px, 5px);
+    transform: translate(68px, 5px);
   }
 
   .blendlinks{
