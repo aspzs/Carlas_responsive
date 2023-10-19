@@ -2,7 +2,7 @@ let gradientColors = [];
 let circlePos;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight).position(0, 0).style('z-index', '-1');
   noStroke();
   gradientColors = [color(255, 250, 252, 100), color(223, 240, 255, 100), color(255, 253, 223, 150)];
   circlePos = createVector(width / 2, height / 2);

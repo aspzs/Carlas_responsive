@@ -222,12 +222,9 @@ body a {
   font-family: 'ManegeDemo', Courier, monospace;
   width: 200%;
   transform: rotate(10deg);
-  margin-left: 500%;
-  margin-top: 250%;
   background-color: white;
   padding: 10px;
   font-size: 20px;
-  height: 47%;
   cursor: cell;
   z-index: 999;
 }
@@ -266,8 +263,7 @@ body a {
 }
 
 .icono_Carla img{
-  width: 153%;
-  transform: translate(-110%, 15%);
+
   z-index: -999;
 }
 
@@ -287,14 +283,15 @@ body a {
 .schreibe2{
   font-family: 'SuisseNeue-light', Courier, monospace;
   font-size: 19px;
-  width: 200%;
-  transform: translate(-45%,800%);
+  border: 1px solid black;
+
 }
 .schreibe3{
   font-family: 'SuisseNeue-light', Courier, monospace;
   font-size: 19px;
-  margin-bottom: 25px;
-  transform: translate(-90%,800%);
+  width: 100%;
+  color: black;
+
 
 }
 
@@ -325,17 +322,17 @@ body a {
 .icons:hover{
   background-color: black;
   color: white;
-  cursor: zoom-in
+  cursor: pointer;
 }
 .icons1:hover{
   background-color: black;
   color: white;
-  cursor: zoom-in
+  cursor: pointer;
 }
 .icons2:hover{
   background-color: black;
   color: white;
-  cursor: zoom-in
+  cursor: pointer;
 }
 
 .year {
@@ -604,7 +601,12 @@ body a {
   font-size: 17px;
   background-color: rgb(11, 11, 11);
   border-top: 3px solid white;
-
+}
+.year1Bio {
+  font-family: 'suisse_medium', Arial, Helvetica, sans-serif;
+  width: 80%;
+  height: 100%;
+  font-size: 17px;
 }
 .year-titles-ex{
   display: inline;
@@ -615,7 +617,6 @@ body a {
   pointer-events: initial;
   transform: translate(25%,50%);
   font-family: 'OBC-light','Courier New', Courier, monospace;
-
 }
 
 .blendlinks{
@@ -625,15 +626,29 @@ body a {
     -webkit-text-fill-color:rgb(250, 250, 250); /* leave transparent or fill with a color! */
 -webkit-text-stroke-color:rgb(0, 0, 0); /* outline stroke color */
 -webkit-text-stroke-width:1px; /* stroke outline thickness */
-  
-
 }
 
 .blend a:hover{
   pointer-events: initial;
   padding: 7px;
   -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+}
 
+.blendBio{
+  pointer-events: initial;
+  transform: translate(15%,50%);
+  font-family: 'OBC-light','Courier New', Courier, monospace;
+}
+
+.blendlinksBio{
+  margin-left: 5%;
+  padding:9px;
+}
+
+.blendBio a:hover{
+  pointer-events: initial;
+  background-color: wheat;
+  border-radius: 10% 30% 50% 70%;
 }
 /* FIN LINKS DEBAJO EN LAS SECCIONES */
 
@@ -707,12 +722,19 @@ a {
   margin-top: 2.5%;
   margin-left: 1%;
 }
+#logo1Bio {
+  margin-top: 2.5%;
+  margin-left: 3%;
+}
 
 #logo1 img{
   width: 5%;
 }
 #logo1 img:hover{
   cursor:wait;
+}
+#logo1Bio img{
+  width: 10%;
 }
 #trabajitos{
   margin-top: 150px;
@@ -760,6 +782,7 @@ header {
 
 #basic-info {
   z-index: 900 !important;
+  transform: translateX(50%);
 }
 /* FIN BIO SECCIONES */
 
@@ -780,12 +803,19 @@ header {
   grid-auto-rows: auto;
 }
 
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  z-index: 100;
+}
+
 .col-1 {
   grid-column: span 1;
 }
 
 .col-2 {
   grid-column: span 2;
+  
 }
 
 .col-3 {
@@ -1257,6 +1287,25 @@ header {
   transition-duration: .3s;
 }
 
+.contenideScBio button{
+  display: inline-block;
+  width: 150%;
+  /* position:relative;
+  width: 190%; */
+  border: 1px dotted white;
+  color: white;
+  font-size: 20px;
+  padding: 6%;
+  margin-left: 15%;
+}
+
+.contenideScBio button:hover{
+  border: 1px dotted white;
+  color: black;
+  background-color: white;
+  transition-duration: .3s;
+}
+
 
 .botones_1{
   transform: translate(-5%,70%);
@@ -1265,6 +1314,16 @@ header {
 .botonesIniciales{
   cursor: grab;
   background-color: rgba(246, 248, 246, 0.075);
+}
+.botonesIniciales{
+  cursor: grab;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.botonesInicialesBio{
+  position:-webkit-sticky;
+  display: block;
+  cursor: grab;
+  background-color: rgba(33, 32, 32, 0.995);
 }
 .botones_2{
   transform: translate(-5%,350%);
@@ -1386,4 +1445,53 @@ margin-top: 70%;
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-family: 'SuisseNeue-light', Courier, monospace;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #f5f3f3;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  margin-top: 5%;
+  cursor: auto;
+}
+
+/* The Close Button */
+.close {
+  color: #0d0d0d;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #dada8b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.myBtn_multi{
+  background-color: rgb(0, 0, 0);
+  z-index: 9999999;
+}
+
 

@@ -46,7 +46,7 @@
 
     }
 /* PC */
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1450px) {
     #wrapper-border {
         position: fixed;
         display: flex;
@@ -59,27 +59,46 @@
       }
     .schreibe2 {
         font-size: 19px;
+        transform: translate(300%,30%);
+        width: 65%;
+        padding: 3%;
     }
+
+    .icono_Carla img{
+        position: fixed;
+        width: 400%;
+        transform: translate(-85%,-75%);
+      }
+
     .schreibe3{
         font-size: 19px;
+        transform: translate(260%,-100%);
       }
 
     .logos{
-        transform: translate(2080%, 435%);
+        transform: translate(0%, 20%);
         height: 10%;
         width: 10%;
       
       }
       .icono3{
-          width: 100%;
-          transform: rotate(-35deg);
+          width: 230%;
+          transform: translate(3150%,-560%);
       }
 
       #bioFooter{
-        font-size: 20px;
-        height: 47%;
+        font-size: 17px;
+        height: 40%;
+        width: 270%;
         cursor: cell;
         z-index: 999;
+        margin-top: 150%;
+        margin-left: 700%;
+      }
+
+      .botonesInicialesBio{
+        transform: translate(30%,0%);
+        cursor: grab;
       }
 
   }
