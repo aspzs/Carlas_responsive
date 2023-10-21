@@ -284,6 +284,7 @@ body a {
   font-family: 'SuisseNeue-light', Courier, monospace;
   font-size: 19px;
   border: 1px solid black;
+  z-index: -999999;
 
 }
 .schreibe3{
@@ -291,6 +292,8 @@ body a {
   font-size: 19px;
   width: 100%;
   color: black;
+  z-index: -999999;
+
 
 
 }
@@ -588,7 +591,6 @@ body a {
   height: 150%;
   transition: transform .5s;
   transform: translate(20px, -250px);
-  border: 1px solid white;
 }
 
 /* FIN DE LA TABLAS */
@@ -607,6 +609,7 @@ body a {
   width: 80%;
   height: 100%;
   font-size: 17px;
+  z-index: -9999;
 }
 .year-titles-ex{
   display: inline;
@@ -638,6 +641,8 @@ body a {
   pointer-events: initial;
   transform: translate(15%,50%);
   font-family: 'OBC-light','Courier New', Courier, monospace;
+  z-index: -909090909;
+
 }
 
 .blendlinksBio{
@@ -661,6 +666,16 @@ body a {
   bottom: 0;
   left: 0;
   z-index: 9999;
+  border-top: 1px solid black;
+}
+#wrapper-eventBio {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  height: 10%;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
   border-top: 1px solid black;
 }
 
@@ -1451,7 +1466,7 @@ margin-top: 70%;
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 100000;
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
