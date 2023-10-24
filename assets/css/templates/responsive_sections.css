@@ -176,14 +176,7 @@
         transform: translate(152%, -60%);
         width: 260%;
       }
-      .mySlides3 {
-        transform: translate(150%, -70%);
-        width: 180%;
-      }
-      .mySlides4 {
-        transform: translate(230%, -60%);
-        width: 210%;
-      }
+
       .textoTom{
         transform: translate(260%, -130%);
         font-size: 15px;
@@ -198,28 +191,8 @@
             .flechitas_custome{
               transform: translate(0%,-100%);
             }
-            .mySlides5F{
-              transform: translate(190%,0%);
-            }
-            .mySlides5F img{
-              width: 100%;
-            }
-            .mySlides02{
-              transform:translate(280%, -60%);
-            }
-            .mySlides02 img{
-              width:250%;
-            }
-            .mySlides02Film{
-              transform: translate(350%,-50%);
-            }
-            .mySlides02Film img{
-              width: 400%;
-            }
-            .mySlides6Sti{
-              transform: translate(300%,-40%);
-              width: 140%;
-            }
+
+
             .mySlides2Arch{
               transform: translate(170%, -10%);
             }
@@ -231,56 +204,298 @@
               width: 150%;
             }
 
-            .mySlides7{
-              transform: translate(150%,-70%);
-              width: 80%;
-            }
-            .mySlides3R{
-              transform: translate(180%,-80%);
-              width: 280%;
-            }
-      
-            .mySlides4Mx{
-              transform: translate(250%,-50%);
-              width: 210%;
-            }
-            .mySlides6Ex{
-              transform: translate(150%,-80%);
-              width: 280%;
-            }
-      
-      
-      
-      
             .textoTom_custome2{
               transform: translate(89%, -40%);
               font-size: 15px;
               width: 160%;
             }
-            .textoTom_custome2DIDO{
-              transform: translate(50%, 140%);
-              font-size: 15px;
-              width: 160%;
-            }
+
             .textoTom_customeFilm{
               font-size: 14px;
               transform: translate(9%, 120%);
 
             }
-            .textoTom_customeEx{
-              transform: translate(150%, -100%);
+
+            /* SECCION SCENO */
+            .mySlidesDidoSceno {
+              width: 330px;
+              transform: translate(170%, -60%);
+              transition:  1s;
+              padding: 5%;
+            }
+            .mySlidesDidoSceno img{
+              width: 180%;
+            }
+            
+            .textoDidoSceno{
+              transform: translate(250%, -130%);
+              padding: 20px;
               font-size: 15px;
-              width: 190%;
+              width: 120%;
             }
-            .textoTom_customeEx1{
-              transform: translate(29%, -100%);
+
+            .mySlidesBoringM{
+              padding: 5%;
+              width: 330px;
+              transform: translate(170%, -70%);
+            }
+            .mySlidesBoringM img{
+              width: 195%;
+            }
+            .textoBoringM{
+              transform: translate(250%, -100%);
+              padding: 20px;
+              font-size: 15px;
+              width: 120%;
+            }
+            
+            .mySlidesMacbeth{
+              padding: 5%;
+              width: 300px;
+              transform: translate(190%, -60%);
+            }
+            .mySlidesMacbeth img{
+              width: 195%;
+            }
+            .textoMacbeth{
+              transform: translate(280%, -150%);
+              padding: 20px;
+              font-size: 15px;
+              width: 120%;
+            }
+
+            .mySlidesTomS{
+              padding: 5%;
+              width: 300px;
+              transform: translate(190%, -60%);
+            }
+            .mySlidesTomS img{
+              width: 195%;
+            }
+            .textoTomS{
+              transform: translate(350%, -130%);
+              padding: 15px;
+              font-size: 15px;
+              width: 100%;
+            }
+
+            .mySlides3 {
+              transform: translate(150%, -80%);
+              width: 180%;
+            }
+            
+            .textoLernplane{
               font-size: 12px;
-              width: 360%;
+              width: 200%;
+              transform: translate(250%, -85%);
+              padding: 15px;
+              font-size: 14px;
             }
-            .textoTom_customeTip{
-              transform: translate(40%,-90%);
-              width: 420%;
+
+            .mySlides4 {
+              transform: translate(187%, -70%);
+              width: 260%;
             }
+
+            .textoKasimir{
+              font-size: 12px;
+              width: 350%;
+              transform: translate(230%, -105%);
+              padding: 15px;
+              font-size: 14px;
+            }
+            /* FIN SECCION SCENO */
+
+            /* SECCION FILM */
+            .textofilm_Mozart{
+              background-color: white;
+              transform: translate(45%, 84%);
+              padding: 10px;
+              width: 270%;
+              font-size: 13px;
+            }
+
+            .textoTom_customeFilm{
+              transform: translate(80%, 200%);
+              padding: 10px;
+              width: 500%;
+              font-size: 13px;
+            }
+
+            .mySlidesMozart{
+              position: relative;
+              z-index: -999991;
+              width: 330px;
+              transform: translate(180%, -125%);
+            }
+            .mySlidesMozart img{
+              width: 150%;
+            }
+
+            .mySlides02Film{
+              transform: translate(420%,-50%);
+            }
+            .mySlides02Film img{
+              width: 500%;
+            }
+            /* FIN SECCION FILM */
+
+            /* SECCION COSTUME */
+            .mySlides5F{
+              width: 330px;
+              transform: translate(180%, -15%);
+              padding: 5%;
+            }
+            .mySlides5F img{
+              width: 120%;
+            }
+
+            .textoTom_custome2{
+              transform: translate(295%, -30%);
+              padding: 20px;
+              width: 350px;
+              font-size: 15px;
+            }
+
+            .mySlides02{
+              transform:translate(340%, -50%);
+            }
+            .mySlides02 img{
+              width:260%;
+            }
+
+            .textoTom_custome2DIDO{
+              transform: translate(30%, 120%);
+              padding: 20px;
+              font-size: 13px;
+              width: 270%;
+            }
+            /* FIN SECCION COSTUME */
+
+            /* SECCION PHOTOGRAPHY */
+.mySlides6StiIm{
+  padding: 5%;
+  transform: translate(520%, -40%);
+}
+.mySlides6StiIm img{
+  width: 355%;
+}
+
+.textoImDik{
+  transform: translate(300%, 300%);
+  padding: 20px;
+  font-size: 13px;
+  width: 270%;
+}
+
+.mySlides2Tip{
+  width: 330px;
+  transform: translate(160%, -100%);
+  padding: 5%;
+}
+.mySlides2Tip img{
+  width: 195%;
+}
+.textoTom_customeTip{
+  transform: translate(184%, 85%);
+  padding: 20px;
+  width: 500px;
+  font-size: 13px;
+}
+
+.mySlides7{
+  width: 80%;
+  padding: 5%;
+  transform: translate(130%, -60%);
+}
+.mySlides7 img{
+  width: 150%;
+}
+
+.textoTom_customeTipCTM{
+  transform: translate(175%, -145%);
+  padding: 20px;
+  width: 500px;
+  font-size: 14px;
+}
+
+.mySlides3R{
+  transform: translate(90%,-70%);
+}
+
+.mySlides3R img{
+  width: 60%;
+}
+.textoRRRR{
+  transform: translate(175%, -95%);
+  padding: 20px;
+  width: 500px;
+  font-size: 14px;
+}
+
+.mySlides4Mx{
+  padding: 5%;
+  width: 330px;
+  transform: translate(160%, -40%);
+}
+.mySlides4Mx img{
+  width: 180%;
+}
+.textoMx{
+  transform: translate(35%, 220%);
+  padding: 20px;
+  font-size: 14px;
+}
+.textoTom_customeEx1{
+  transform: translate(35%, 60%);
+  padding: 20px;
+  font-size: 13px;
+  width: 180%;
+}
+
+.mySlides6Ex{
+  width: 330px;
+  transform: translate(250%, -80%);
+}
+.mySlides6Ex img{
+  width: 115%;
+}
+
+/* FIN SECCION PHOTOGRAPHY */
+
+/* SECCION DRAWING */
+
+.mySlidesFigure{
+  padding: 5%;
+  transform: translate(150%, -25%);
+}
+.mySlidesFigure img{
+  width: 140%;
+}
+
+.mySlides6Sti{
+  transform: translate(290%,-30%);
+  width: 170%;
+}
+
+.textoStill{
+  transform: translate(35%, 500%);
+  padding: 20px;
+  font-size: 15px;
+  width: 260%;
+}
+.textoVesuvio{
+  transform: translate(35%, 300%);
+  padding: 20px;
+  font-size: 15px;
+  width: 260%;
+}
+
+
+/* FIN SECCION DRAWING */
+
+
+          
 
     }
  /* Notebook/tablet grande  */
@@ -429,11 +644,7 @@
                     font-size: 15px;
                     width: 160%;
                   }
-                  .textoTom_customeFilm{
-                    font-size: 14px;
-                    transform: translate(9%, 120%);
-      
-                  }
+
                   .textoTom_customeEx{
                     transform: translate(150%, -150%);
                     font-size: 15px;

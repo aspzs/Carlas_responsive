@@ -83,7 +83,7 @@
       }
       .icono3{
           width: 230%;
-          transform: translate(3150%,-560%);
+          transform: translate(3150%,-560%) rotate(-65deg);
       }
 
       #bioFooter{

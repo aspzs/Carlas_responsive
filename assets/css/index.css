@@ -259,7 +259,7 @@ body a {
 }
 .icono3{
     width: 100%;
-    transform: rotate(-35deg);
+    transform: rotate(-85deg);
 }
 
 .icono_Carla img{
@@ -558,6 +558,7 @@ body a {
   height: 150%;
   transition: transform .5s;
   transform: translate(0px, -200px);
+
 }
 .year-borderSC {
   width: 20.666666vw;
@@ -591,6 +592,8 @@ body a {
   height: 150%;
   transition: transform .5s;
   transform: translate(20px, -250px);
+  border: 1px solid white;
+
 }
 
 /* FIN DE LA TABLAS */
@@ -622,6 +625,7 @@ body a {
   font-family: 'OBC-light','Courier New', Courier, monospace;
 }
 
+
 .blendlinks{
   background-color: white;
   margin-left: 5%;
@@ -633,8 +637,9 @@ body a {
 
 .blend a:hover{
   pointer-events: initial;
-  padding: 7px;
-  -webkit-text-stroke-width:1.8px; /* stroke outline thickness */
+  padding: 23px;
+  -webkit-text-stroke-width:0.4px; /* stroke outline thickness */
+  border-radius: 40% 70% 28% 90%;
 }
 
 .blendBio{
@@ -957,24 +962,33 @@ header {
 .textoTom_customeFilm{
   background-color: white;
   font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
-  transform: translate(200%, -30%);
-  padding: 20px;
-  width: 250%;
-  font-size: 15px;
   position: flex;
   z-index: 99999;
 }
 
-.textoTom_customeTip{
+
+/* SECCION FILM */
+.textofilm_Mozart{
   background-color: white;
   font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
-  transform: translate(190%, -85%);
-  padding: 20px;
-  width: 500px;
-  font-size: 15px;
   position: flex;
   z-index: 99999;
+  cursor: crosshair;
 }
+
+.mySlidesMozart{
+  position: relative;
+  z-index: -999991;
+  /* width: 330px;
+  transform: translate(180%, -130%); */
+}
+/* .mySlidesMozart img{
+  width: 150%;
+} */
+
+/* FIN SECCION FILM */
+
+
 .textoTom_customeTipCTM{
   background-color: white;
   font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
@@ -986,26 +1000,7 @@ header {
   z-index: 99999;
 }
 
-.textoTom_customeEx{
-  background-color: white;
-  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
-  transform: translate(280%, -240%);
-  padding: 10px;
-  width: 100%;
-  font-size: 13px;
-  position: flex;
-  z-index: 99999;
-}
-.textoTom_customeEx1{
-  background-color: white;
-  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
-  transform: translate(140%, -90%);
-  padding: 10px;
-  width: 170%;
-  font-size: 13px;
-  position: flex;
-  z-index: 99999;
-}
+
 .textoTomArch{
   background-color: white;
   font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
@@ -1015,15 +1010,7 @@ header {
   position: flex;
   z-index: 99999;
 }
-.textoTom_custome2DIDO{
-  background-color: white;
-  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
-  transform: translate(280%, -130%);
-  padding: 20px;
-  font-size: 15px;
-  position: flex;
-  z-index: 99999;
-}
+
 
 .mySlides2 img{
   transform: translate(0%,0%);
@@ -1037,19 +1024,226 @@ header {
   padding: 5%;
 }
 .mySlides5 img{
+  width: 100%;
+}
+
+/* SCENOGRAPHY SECTION */
+.mySlidesDidoSceno {
+  position: relative;
+  z-index: -999991;
+
+}
+/* .mySlidesDidoSceno img{
+  width: 180%;
+} */
+
+.textoDidoSceno{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlidesBoringM{
+  position: relative;
+  z-index: -999991;
+}
+
+.textoBoringM{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlidesMacbeth{
+  position: relative;
+  z-index: -999991;
+}
+
+.textoMacbeth{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlidesTomS{
+  position: relative;
+  z-index: -999991;
+}
+
+.textoTomS{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.textoLernplane{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlides4{
+  position: relative;
+  padding: 5%;
+  z-index: -999991;
+  width: 330px;
+  transform: translate(160%, -70%);
+}
+.mySlides4 img{
   width: 180%;
 }
 
+.textoKasimir{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+/* FIN DE SCNEO SECTION */
+
+
+/* SECCION COSTUME DESING */
 .mySlides5F {
   position: relative;
   z-index: -999991;
-  width: 330px;
-  transform: translate(190%, -8%);
+}
+
+.textoTom_custome2{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlides02{
+  position: relative;
+  z-index: -999991;
+}
+
+.textoTom_custome2DIDO{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+/* FIN SECCION COSTUME DESING */
+
+/* SECCION PHOTOGRAPHY */
+.mySlides6StiIm{
+  position: relative;
+  z-index: -999991;
+}
+
+.textoImDik{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlides2Tip{
+  position: relative;
+  z-index: -999991;
+}
+
+.textoTom_customeTip{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlides7{
+  position: relative;
+  z-index: -999991;
+}
+.textoTom_customeTipCTM{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+.mySlides3R{
+  position: relative;
+  z-index: -999991;
+}
+.textoRRRR{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.mySlides4Mx{
+  position: relative;
+  z-index: -999991;
+}
+.textoMx{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+.textoTom_customeEx1{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+.mySlides6Ex{
+  position: relative;
+  z-index: -999991;
+}
+
+
+
+/* FIN SECCION PHOTOGRAPHY */
+
+/* SECCION DRAWING */
+
+.mySlidesFigure{
+  position: relative;
+  z-index: -999991;
+}
+
+.mySlides6Sti{
+  position: relative;
   padding: 5%;
+  z-index: -999991;
+  transform: translate(500%, -50%);
 }
-.mySlides5F img{
-  width: 95%;
+.mySlides6Sti img{
+  width: 255%;
 }
+
+.textoStill{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+.textoVesuvio{
+  background-color: white;
+  font-family: 'CircularStd-Book',Arial, Helvetica, sans-serif;
+  position: flex;
+  z-index: 99999;
+}
+
+
+
+/* FIN SECCION DRAWING */
+
+
+
+
+
 
 .mySlides0{
   position: relative;
@@ -1062,15 +1256,7 @@ header {
   width: 180%;
 }
 
-.mySlides02{
-  position: relative;
-  z-index: -999991;
-  transform: translate(170%, -50%);
-  padding: 5%;
-}
-.mySlides02 img{
-  width: 150%;
-}
+
 
 .mySlides02Film{
   position: relative;
@@ -1104,26 +1290,8 @@ header {
   width: 180%;
 }
 
-.mySlides3R{
-  position: relative;
-  z-index: -999991;
-  transform: translate(110%, -85%);
-  padding: 5%;
-}
-.mySlides3R img{
-  width: 80%;
-}
 
-.mySlides4{
-  position: relative;
-  padding: 5%;
-  z-index: -999991;
-  width: 330px;
-  transform: translate(160%, -70%);
-}
-.mySlides4 img{
-  width: 180%;
-}
+
 
 .mySlides6{
   position: relative;
@@ -1136,57 +1304,12 @@ header {
   width: 195%;
 }
 
-.mySlides6Ex{
-  position: relative;
-  padding: 5%;
-  z-index: -999991;
-  width: 330px;
-  transform: translate(150%, -80%);
-}
-.mySlides6Ex img{
-  width: 115%;
-}
-
-.mySlides7{
-  position: relative;
-  padding: 5%;
-  z-index: -999991;
-  transform: translate(100%, -70%);
-}
-.mySlides7 img{
-  width: 100%;
-}
-
-.mySlides6Sti{
-  position: relative;
-  padding: 5%;
-  z-index: -999991;
-  transform: translate(500%, -50%);
-}
-.mySlides6Sti img{
-  width: 255%;
-}
-.mySlides6StiIm{
-  position: relative;
-  padding: 5%;
-  z-index: -999991;
-  transform: translate(500%, -50%);
-}
-.mySlides6StiIm img{
-  width: 255%;
-}
 
 
-.mySlides4Mx{
-  position: relative;
-  padding: 5%;
-  z-index: -999991;
-  width: 330px;
-  transform: translate(160%, -40%);
-}
-.mySlides4Mx img{
-  width: 180%;
-}
+
+
+
+
 
 .mySlides2Arch{
   position: relative;
@@ -1199,16 +1322,7 @@ header {
   width: 195%;
 }
 
-.mySlides2Tip{
-  position: relative;
-  width: 330px;
-  transform: translate(160%, -80%);
-  padding: 5%;
-  z-index: -999991;
-}
-.mySlides2Tip img{
-  width: 195%;
-}
+
 
 .KasimirLinks{
   color: rgb(142, 124, 124);
@@ -1346,7 +1460,7 @@ header {
 
 }
 .botones_3{
-  transform: translate(0%,150%);
+  transform: translate(-5%,170%);
 }
 
 .contenideSc .flechitas{
@@ -1380,14 +1494,12 @@ margin-top: 70%;
   position:sticky;
   padding: 20px;
   height: 130px;
-  background-color: rgba(79, 68, 68, 0.049);
   transform: translate(190%,-550%);
   z-index: 99999;
 }
 
 .prev img:hover{
   cursor: pointer;	
-  background-color: rgba(79, 68, 68, 0.683);
 }
 
 .next img{
@@ -1395,7 +1507,6 @@ margin-top: 70%;
   position:sticky;
   padding: 20px;
   height: 130px;
-  background-color: rgba(79, 68, 68, 0.049);
   transform: translate(580%,-550%);
   z-index: 99999;
 
@@ -1403,7 +1514,6 @@ margin-top: 70%;
 }
 .next img:hover{
   cursor: pointer;	
-  background-color: rgba(79, 68, 68, 0.683);
 }
 
 
